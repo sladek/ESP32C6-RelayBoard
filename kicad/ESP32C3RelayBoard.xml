@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/sladekm/Projects/kicad/ESP32C3RelayBoard/ESP32C3RelayBoard.kicad_sch</source>
+    <date>Sun 23 Jul 2023 22:49:59 CEST</date>
+    <tool>Eeschema 7.0.6-7.0.6~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ESP32C3RelayBoard.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.22uF/6.3V</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32C3RelayBoard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23fed14d-5880-4d34-9ed4-f1304e464fee</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>2.2uF</value>
+      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <fields>
+        <field name="Description">HMK325B7225KN-T</field>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Voltage" value="100V"/>
+      <property name="Description" value="HMK325B7225KN-T"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32C3RelayBoard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23cf5363-54af-4b47-be39-5f1040ce0b6d</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.22uF</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">C3216X7R2A224K</field>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="C3216X7R2A224K"/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32C3RelayBoard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22e125b0-c91c-4ef4-8e07-a4a288c5765e</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>MMBD914</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32C3RelayBoard.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c11aefe-8317-4aca-8e35-a296ac8b870b</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>VS-1ENH01-M3_84A</value>
+      <footprint>Vishay:VS1ENH01M384A</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/VS-1ENH01-M3_84A.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">VS-1ENH01-M3/84A</field>
+        <field name="Mouser Part Number">78-VS-1ENH01-M3/84A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VS-1ENH01-M3-84A?qs=UkDUCjYnTB3tcaVvWiw8LQ%3D%3D</field>
+      </fields>
+      <libsource lib="VS-1ENH01-M3_84A" part="VS-1ENH01-M3_84A" description="Rectifiers FRED -SMP RECTIFIER 1A 100VBR"/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="78-VS-1ENH01-M3/84A"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VS-1ENH01-M3-84A?qs=UkDUCjYnTB3tcaVvWiw8LQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="VS-1ENH01-M3/84A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32C3RelayBoard.kicad_sch"/>
+      <property name="ki_description" value="Rectifiers FRED -SMP RECTIFIER 1A 100VBR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e0d1811-8c33-45af-ba72-b03c58361faf</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>VS-1ENH01-M3_84A</value>
+      <footprint>Vishay:VS1ENH01M384A</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/VS-1ENH01-M3_84A.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">VS-1ENH01-M3/84A</field>
+        <field name="Mouser Part Number">78-VS-1ENH01-M3/84A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VS-1ENH01-M3-84A?qs=UkDUCjYnTB3tcaVvWiw8LQ%3D%3D</field>
+      </fields>
+      <libsource lib="VS-1ENH01-M3_84A" part="VS-1ENH01-M3_84A" description="Rectifiers FRED -SMP RECTIFIER 1A 100VBR"/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="78-VS-1ENH01-M3/84A"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VS-1ENH01-M3-84A?qs=UkDUCjYnTB3tcaVvWiw8LQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="VS-1ENH01-M3/84A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32C3RelayBoard.kicad_sch"/>
+      <property name="ki_description" value="Rectifiers FRED -SMP RECTIFIER 1A 100VBR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c629db8e-d45e-4371-bf2a-9497d733189e</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32C3RelayBoard.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7f19772-bbb4-4a82-a3ec-bb1423936652</tstamps>
+    </comp>
+    <comp ref="K1">
+      <value>G5RL-K1-E-DC5_1</value>
+      <footprint>Omron:Omron-G5RL-K1-E-MFG</footprint>
+      <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5rl_uk.pdf</datasheet>
+      <fields>
+        <field name="ambient temperature range high">+85°C</field>
+        <field name="ambient temperature range low">-40°C</field>
+        <field name="automotive">No</field>
+        <field name="category">Relay</field>
+        <field name="coil current">62.5mA</field>
+        <field name="coil power">0.75W</field>
+        <field name="coil resistance">192Ω</field>
+        <field name="coil type">Latching and Dual Coil</field>
+        <field name="coil voltage">5V</field>
+        <field name="current rating">16A</field>
+        <field name="device class L1">Electromechanical</field>
+        <field name="device class L2">Relays</field>
+        <field name="device class L3">Power Relays</field>
+        <field name="digikey description">RELAY GEN PURPOSE SPDT 16A 5V</field>
+        <field name="digikey part number">Z4396-ND</field>
+        <field name="height">15.7mm</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">00210b733d68a69d</field>
+        <field name="manufacturer">Omron</field>
+        <field name="mouser description">Power Relay 12VDC 16(NO)/5(NC)A SPDT(29x12.7x15.7)mm THT</field>
+        <field name="mouser part number">653-G5RLK1EDC12</field>
+        <field name="number of contacts">1</field>
+        <field name="package">PTH_RELAY_28MM8_12MM5</field>
+        <field name="rohs">Yes</field>
+        <field name="switching current">16A</field>
+        <field name="temperature range high">+85°C</field>
+        <field name="temperature range low">-40°C</field>
+        <field name="throw configuration">SPDT</field>
+      </fields>
+      <libsource lib="Omron-G5RL" part="G5RL-K1-E-DC5_1" description="G5RL-K1-E-DC12"/>
+      <property name="ambient temperature range high" value="+85°C"/>
+      <property name="ambient temperature range low" value="-40°C"/>
+      <property name="automotive" value="No"/>
+      <property name="category" value="Relay"/>
+      <property name="coil current" value="62.5mA"/>
+      <property name="coil power" value="0.75W"/>
+      <property name="coil resistance" value="192Ω"/>
+      <property name="coil type" value="Latching and Dual Coil"/>
+      <property name="coil voltage" value="5V"/>
+      <property name="current rating" value="16A"/>
+      <property name="device class L1" value="Electromechanical"/>
+      <property name="device class L2" value="Relays"/>
+      <property name="device class L3" value="Power Relays"/>
+      <property name="digikey description" value="RELAY GEN PURPOSE SPDT 16A 5V"/>
+      <property name="digikey part number" value="Z4396-ND"/>
+      <property name="height" value="15.7mm"/>
+      <property name="lead free" value="Yes"/>
+      <property name="library id" value="00210b733d68a69d"/>
+      <property name="manufacturer" value="Omron"/>
+      <property name="mouser description" value="Power Relay 12VDC 16(NO)/5(NC)A SPDT(29x12.7x15.7)mm THT"/>
+      <property name="mouser part number" value="653-G5RLK1EDC12"/>
+      <property name="number of contacts" value="1"/>
+      <property name="package" value="PTH_RELAY_28MM8_12MM5"/>
+      <property name="rohs" value="Yes"/>
+      <property name="switching current" value="16A"/>
+      <property name="temperature range high" value="+85°C"/>
+      <property name="temperature range low" value="-40°C"/>
+      <property name="throw configuration" value="SPDT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32C3RelayBoard.kicad_sch"/>
+      <property name="ki_description" value="G5RL-K1-E-DC12"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d977e57-03f1-40cb-b315-4b155b271fa3</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">RMCF1206JT10R0</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value="RMCF1206JT10R0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32C3RelayBoard.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf9ca832-1e98-402d-873a-163db1f0658b</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>FAN3240TMX</value>
+      <footprint>Onsemi:SOIC127P600X175-8N</footprint>
+      <fields>
+        <field name="MANUFACTURER">ON Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.75 mm</field>
+        <field name="PARTREV">1.0.2</field>
+        <field name="STANDARD">IPC 7351B</field>
+      </fields>
+      <libsource lib="FAN3240TMX" part="FAN3240TMX" description=""/>
+      <property name="PARTREV" value="1.0.2"/>
+      <property name="MANUFACTURER" value="ON Semiconductor"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.75 mm"/>
+      <property name="STANDARD" value="IPC 7351B"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32C3RelayBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>455987f4-fcb8-4402-9d4d-f4e3dca1a354</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>INA232AIDDFR</value>
+      <footprint>TexasInstruments:SOT_32AIDDFR_TEX</footprint>
+      <datasheet>INA232AIDDFR</datasheet>
+      <libsource lib="INA232AIDDFR" part="INA232AIDDFR" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32C3RelayBoard.kicad_sch"/>
+      <property name="ki_keywords" value="INA232AIDDFR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac01860d-8b9c-415b-9980-5fd331865180</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>INA232AIDDFR</value>
+      <footprint>TexasInstruments:SOT_32AIDDFR_TEX</footprint>
+      <datasheet>INA232AIDDFR</datasheet>
+      <libsource lib="INA232AIDDFR" part="INA232AIDDFR" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32C3RelayBoard.kicad_sch"/>
+      <property name="ki_keywords" value="INA232AIDDFR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bdd4edfd-e996-488a-b568-1adfece77bcf</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x03">
+      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FAN3240TMX" part="FAN3240TMX">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FAN3240TMX</field>
+        <field name="Footprint">Onsemi:SOIC127P600X175-8N</field>
+        <field name="PARTREV">1.0.2</field>
+        <field name="MANUFACTURER">ON Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.75 mm</field>
+        <field name="STANDARD">IPC 7351B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="5VB" type="power_in"/>
+        <pin num="3" name="IN1" type="input"/>
+        <pin num="4" name="IN2" type="input"/>
+        <pin num="5" name="OUT2" type="output"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="OUT1" type="output"/>
+        <pin num="8" name="VS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="INA232AIDDFR" part="INA232AIDDFR">
+      <docs>INA232AIDDFR</docs>
+      <footprints>
+        <fp>SOT_32AIDDFR_TEX</fp>
+        <fp>SOT_32AIDDFR_TEX-M</fp>
+        <fp>SOT_32AIDDFR_TEX-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INA232AIDDFR</field>
+        <field name="Footprint">TexasInstruments:SOT_32AIDDFR_TEX</field>
+        <field name="Datasheet">INA232AIDDFR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN+" type="input"/>
+        <pin num="2" name="IN-" type="input"/>
+        <pin num="3" name="GND" type="power_out"/>
+        <pin num="4" name="VS" type="unspecified"/>
+        <pin num="5" name="SCL" type="unspecified"/>
+        <pin num="6" name="SDA" type="unspecified"/>
+        <pin num="7" name="A0" type="unspecified"/>
+        <pin num="8" name="ALERT" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Omron-G5RL" part="G5RL-K1-E-DC5_1">
+      <description>G5RL-K1-E-DC12</description>
+      <docs>https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5rl_uk.pdf</docs>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">G5RL-K1-E-DC5_1</field>
+        <field name="Footprint">Omron:Omron-G5RL-K1-E-MFG</field>
+        <field name="Datasheet">https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5rl_uk.pdf</field>
+        <field name="ambient temperature range high">+85°C</field>
+        <field name="ambient temperature range low">-40°C</field>
+        <field name="automotive">No</field>
+        <field name="category">Relay</field>
+        <field name="coil current">62.5mA</field>
+        <field name="coil power">0.75W</field>
+        <field name="coil resistance">192Ω</field>
+        <field name="coil type">Latching and Dual Coil</field>
+        <field name="coil voltage">5V</field>
+        <field name="current rating">16A</field>
+        <field name="device class L1">Electromechanical</field>
+        <field name="device class L2">Relays</field>
+        <field name="device class L3">Power Relays</field>
+        <field name="digikey description">RELAY GEN PURPOSE SPDT 16A 5V</field>
+        <field name="digikey part number">Z4396-ND</field>
+        <field name="height">15.7mm</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">00210b733d68a69d</field>
+        <field name="manufacturer">Omron</field>
+        <field name="mouser description">Power Relay 12VDC 16(NO)/5(NC)A SPDT(29x12.7x15.7)mm THT</field>
+        <field name="mouser part number">653-G5RLK1EDC12</field>
+        <field name="number of contacts">1</field>
+        <field name="package">PTH_RELAY_28MM8_12MM5</field>
+        <field name="rohs">Yes</field>
+        <field name="switching current">16A</field>
+        <field name="temperature range high">+85°C</field>
+        <field name="temperature range low">-40°C</field>
+        <field name="throw configuration">SPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="R-" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="S-" type="passive"/>
+        <pin num="9" name="S+/R+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="VS-1ENH01-M3_84A" part="VS-1ENH01-M3_84A">
+      <description>Rectifiers FRED -SMP RECTIFIER 1A 100VBR</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/VS-1ENH01-M3_84A.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">VS-1ENH01-M3_84A</field>
+        <field name="Footprint">Vishay:VS1ENH01M384A</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/VS-1ENH01-M3_84A.pdf</field>
+        <field name="Mouser Part Number">78-VS-1ENH01-M3/84A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VS-1ENH01-M3-84A?qs=UkDUCjYnTB3tcaVvWiw8LQ%3D%3D</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">VS-1ENH01-M3/84A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K1" pin="9" pinfunction="S+/R+" pintype="passive"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="3" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K1" pin="8" pinfunction="S-" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="OUT2" pintype="output"/>
+    </net>
+    <net code="5" name="Net-(D3-A)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K1" pin="1" pinfunction="R-" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="OUT1" pintype="output"/>
+    </net>
+    <net code="6" name="Net-(J1-Pin_1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="K1" pin="7" pinfunction="7" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(J1-Pin_2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="K1" pin="6" pinfunction="6" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(J1-Pin_3)">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="K1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="K1" pin="5" pinfunction="5" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(U1-5VB)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="EN" pintype="input"/>
+      <node ref="U1" pin="2" pinfunction="5VB" pintype="power_in"/>
+    </net>
+    <net code="10" name="Net-(U1-VS)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VS" pintype="power_in"/>
+    </net>
+    <net code="11" name="Net-(U2-SCL)">
+      <node ref="U2" pin="5" pinfunction="SCL" pintype="unspecified"/>
+      <node ref="U3" pin="5" pinfunction="SCL" pintype="unspecified"/>
+    </net>
+    <net code="12" name="Net-(U2-SDA)">
+      <node ref="U2" pin="6" pinfunction="SDA" pintype="unspecified"/>
+      <node ref="U3" pin="6" pinfunction="SDA" pintype="unspecified"/>
+    </net>
+    <net code="13" name="unconnected-(U1-IN1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="IN1" pintype="input"/>
+    </net>
+    <net code="14" name="unconnected-(U1-IN2-Pad4)">
+      <node ref="U1" pin="4" pinfunction="IN2" pintype="input"/>
+    </net>
+    <net code="15" name="unconnected-(U2-A0-Pad7)">
+      <node ref="U2" pin="7" pinfunction="A0" pintype="unspecified"/>
+    </net>
+    <net code="16" name="unconnected-(U2-ALERT-Pad8)">
+      <node ref="U2" pin="8" pinfunction="ALERT" pintype="unspecified"/>
+    </net>
+    <net code="17" name="unconnected-(U2-GND-Pad3)">
+      <node ref="U2" pin="3" pinfunction="GND" pintype="power_out"/>
+    </net>
+    <net code="18" name="unconnected-(U2-IN+-Pad1)">
+      <node ref="U2" pin="1" pinfunction="IN+" pintype="input"/>
+    </net>
+    <net code="19" name="unconnected-(U2-IN--Pad2)">
+      <node ref="U2" pin="2" pinfunction="IN-" pintype="input"/>
+    </net>
+    <net code="20" name="unconnected-(U2-VS-Pad4)">
+      <node ref="U2" pin="4" pinfunction="VS" pintype="unspecified"/>
+    </net>
+    <net code="21" name="unconnected-(U3-A0-Pad7)">
+      <node ref="U3" pin="7" pinfunction="A0" pintype="unspecified"/>
+    </net>
+    <net code="22" name="unconnected-(U3-ALERT-Pad8)">
+      <node ref="U3" pin="8" pinfunction="ALERT" pintype="unspecified"/>
+    </net>
+    <net code="23" name="unconnected-(U3-GND-Pad3)">
+      <node ref="U3" pin="3" pinfunction="GND" pintype="power_out"/>
+    </net>
+    <net code="24" name="unconnected-(U3-IN+-Pad1)">
+      <node ref="U3" pin="1" pinfunction="IN+" pintype="input"/>
+    </net>
+    <net code="25" name="unconnected-(U3-IN--Pad2)">
+      <node ref="U3" pin="2" pinfunction="IN-" pintype="input"/>
+    </net>
+    <net code="26" name="unconnected-(U3-VS-Pad4)">
+      <node ref="U3" pin="4" pinfunction="VS" pintype="unspecified"/>
+    </net>
+  </nets>
+</export>
