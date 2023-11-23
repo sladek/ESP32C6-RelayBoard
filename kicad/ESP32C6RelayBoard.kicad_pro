@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -48,8 +48,20 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|219900981|117925000|89839a57-28f2-4569-be8e-f1dd498ffa01|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|259275000|112625000|d8b0a0f7-1e34-494d-be51-300b4d096ea2|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|152500000|125150000|53ec27e8-4526-4328-bb2c-22f2392c2f66|f5cddeda-f11e-4d19-8320-c6ed7c386e79",
+        "silk_edge_clearance|152500000|138350000|53ec27e8-4526-4328-bb2c-22f2392c2f66|cbf9147c-c8a5-4a1d-b1ba-22d7d93040ed",
+        "silk_edge_clearance|152500000|138350000|53ec27e8-4526-4328-bb2c-22f2392c2f66|fe2a9c6b-c4cf-4ec2-8f88-fc64606e811f"
+      ],
       "meta": {
         "version": 2
       },
@@ -165,8 +177,22 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.4,
+        0.5,
+        0.6,
+        0.762,
+        1.0,
+        1.5,
+        2.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -392,14 +418,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ESP32C3RelayBoard.kicad_pro",
+    "filename": "ESP32C6RelayBoard.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.18,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
