@@ -6,6 +6,9 @@ Board with relays and sensors with ESP32C6 SOC.
 ![](ESP32C6RelayBoardBackSmall.jpg) 
 
 **Board contains the following interfaces:**
+- 12V DC power connector
+- Micro USB for programming/communication
+- RGB intelligent LED WS2812b
 - 4 x Latching relay 250 VAC, 24 VDC / 16A
 - 2 x INA232 Current & Power Monitors & Regulators 48-V, 16-bit high-precision IC output digital power monitor
 - 2 x 330V -> 3.3V Voltage divider connected to A/D converter ADC1 of CPU
