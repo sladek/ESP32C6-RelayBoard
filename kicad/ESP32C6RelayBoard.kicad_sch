@@ -1877,6 +1877,119 @@
         )
       )
     )
+    (symbol "LED:WS2812B" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 5.08 5.715 0)
+        (effects (font (size 1.27 1.27)) (justify right bottom))
+      )
+      (property "Value" "WS2812B" (at 1.27 -5.715 0)
+        (effects (font (size 1.27 1.27)) (justify left top))
+      )
+      (property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 1.27 -7.62 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 2.54 -9.525 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "ki_keywords" "RGB LED NeoPixel addressable" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "RGB LED with integrated controller" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "WS2812B_0_0"
+        (text "RGB" (at 2.286 -4.191 0)
+          (effects (font (size 0.762 0.762)))
+        )
+      )
+      (symbol "WS2812B_0_1"
+        (polyline
+          (pts
+            (xy 1.27 -3.556)
+            (xy 1.778 -3.556)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -2.54)
+            (xy 1.778 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 4.699 -3.556)
+            (xy 2.667 -3.556)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.286 -2.54)
+            (xy 1.27 -3.556)
+            (xy 1.27 -3.048)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.286 -1.524)
+            (xy 1.27 -2.54)
+            (xy 1.27 -2.032)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.683 -1.016)
+            (xy 3.683 -3.556)
+            (xy 3.683 -4.064)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 4.699 -1.524)
+            (xy 2.667 -1.524)
+            (xy 3.683 -3.556)
+            (xy 4.699 -1.524)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 5.08 5.08) (end -5.08 -5.08)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+      )
+      (symbol "WS2812B_1_1"
+        (pin power_in line (at 0 7.62 270) (length 2.54)
+          (name "VDD" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin output line (at 7.62 0 180) (length 2.54)
+          (name "DOUT" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at 0 -7.62 90) (length 2.54)
+          (name "VSS" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -7.62 0 0) (length 2.54)
+          (name "DIN" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Omron-G5RL:G5RL-K1-E-DC5_1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "K" (at 0 7.62 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -2823,16 +2936,16 @@
     )
   )
 
-  (junction (at 267.97 80.01) (diameter 0) (color 0 0 0 0)
+  (junction (at 267.97 67.31) (diameter 0) (color 0 0 0 0)
     (uuid 0001643d-d139-48c6-bf8d-74493fd051d1)
   )
-  (junction (at 438.15 168.91) (diameter 0) (color 0 0 0 0)
+  (junction (at 434.34 113.03) (diameter 0) (color 0 0 0 0)
     (uuid 03d224ec-a028-40ff-8eab-2417d047a9d9)
   )
   (junction (at 137.16 85.09) (diameter 0) (color 0 0 0 0)
     (uuid 04e48e25-8680-4dda-8836-f392fdb418d1)
   )
-  (junction (at 438.15 161.29) (diameter 0) (color 0 0 0 0)
+  (junction (at 434.34 105.41) (diameter 0) (color 0 0 0 0)
     (uuid 051674ed-33d0-4505-a9cd-c86d5baf85ab)
   )
   (junction (at 534.67 73.66) (diameter 0) (color 0 0 0 0)
@@ -2847,7 +2960,7 @@
   (junction (at 168.91 278.13) (diameter 0) (color 0 0 0 0)
     (uuid 1146e39d-7cdc-4e34-bb44-dc22dfdecfec)
   )
-  (junction (at 438.15 166.37) (diameter 0) (color 0 0 0 0)
+  (junction (at 434.34 110.49) (diameter 0) (color 0 0 0 0)
     (uuid 16a5ddc6-2fca-4874-8d6b-edc8c7f84f88)
   )
   (junction (at 311.15 360.68) (diameter 0) (color 0 0 0 0)
@@ -2868,7 +2981,7 @@
   (junction (at 144.78 330.2) (diameter 0) (color 0 0 0 0)
     (uuid 2289af7e-a2af-491f-b1a2-8379c82caeb8)
   )
-  (junction (at 438.15 163.83) (diameter 0) (color 0 0 0 0)
+  (junction (at 434.34 107.95) (diameter 0) (color 0 0 0 0)
     (uuid 2375a0d8-847c-4716-8829-cd70f0c0c2a5)
   )
   (junction (at 391.16 271.78) (diameter 0) (color 0 0 0 0)
@@ -2883,7 +2996,7 @@
   (junction (at 104.14 335.28) (diameter 0) (color 0 0 0 0)
     (uuid 31da78d5-70a9-4813-9598-393df3e1ffa9)
   )
-  (junction (at 397.51 161.29) (diameter 0) (color 0 0 0 0)
+  (junction (at 393.7 105.41) (diameter 0) (color 0 0 0 0)
     (uuid 3ca8df62-675d-4aba-adb4-e02f2ddd039c)
   )
   (junction (at 391.16 279.4) (diameter 0) (color 0 0 0 0)
@@ -2895,7 +3008,7 @@
   (junction (at 539.75 73.66) (diameter 0) (color 0 0 0 0)
     (uuid 3f3367b0-6e82-4ea5-b637-df54df338f10)
   )
-  (junction (at 274.32 107.95) (diameter 0) (color 0 0 0 0)
+  (junction (at 274.32 95.25) (diameter 0) (color 0 0 0 0)
     (uuid 3f38c870-0b85-401b-9254-0324f1c51314)
   )
   (junction (at 293.37 278.13) (diameter 0) (color 0 0 0 0)
@@ -2943,7 +3056,7 @@
   (junction (at 144.78 347.98) (diameter 0) (color 0 0 0 0)
     (uuid 59763b48-0638-42e7-a7bd-b985d57b85ff)
   )
-  (junction (at 403.86 158.75) (diameter 0) (color 0 0 0 0)
+  (junction (at 400.05 102.87) (diameter 0) (color 0 0 0 0)
     (uuid 59ed8c2c-9e69-4074-8e7b-9df98c021cb7)
   )
   (junction (at 311.15 327.66) (diameter 0) (color 0 0 0 0)
@@ -2952,7 +3065,7 @@
   (junction (at 168.91 342.9) (diameter 0) (color 0 0 0 0)
     (uuid 5cbb9b24-5fe6-40e8-b326-8ee18fbdf906)
   )
-  (junction (at 346.71 100.33) (diameter 0) (color 0 0 0 0)
+  (junction (at 346.71 87.63) (diameter 0) (color 0 0 0 0)
     (uuid 5d756091-0515-42cc-8f30-91c7cd7dcef6)
   )
   (junction (at 269.24 265.43) (diameter 0) (color 0 0 0 0)
@@ -2967,7 +3080,7 @@
   (junction (at 273.05 331.47) (diameter 0) (color 0 0 0 0)
     (uuid 6a365daa-5ece-4940-adbb-9b24a1c564d9)
   )
-  (junction (at 269.24 105.41) (diameter 0) (color 0 0 0 0)
+  (junction (at 269.24 92.71) (diameter 0) (color 0 0 0 0)
     (uuid 7011ec25-e1e7-4724-8bfa-95ffe3ff0f9d)
   )
   (junction (at 173.99 67.31) (diameter 0) (color 0 0 0 0)
@@ -2979,19 +3092,19 @@
   (junction (at 287.02 295.91) (diameter 0) (color 0 0 0 0)
     (uuid 7a1a9397-7827-4e81-a027-7435e3e59d34)
   )
-  (junction (at 336.55 189.23) (diameter 0) (color 0 0 0 0)
+  (junction (at 320.04 182.88) (diameter 0) (color 0 0 0 0)
     (uuid 7af80cd3-6f46-4cb8-9aa7-ac8fe39db37e)
   )
   (junction (at 391.16 330.2) (diameter 0) (color 0 0 0 0)
     (uuid 7b48da55-1210-4abe-add5-fa9c1dd62fa5)
   )
-  (junction (at 317.5 72.39) (diameter 0) (color 0 0 0 0)
+  (junction (at 317.5 59.69) (diameter 0) (color 0 0 0 0)
     (uuid 7d591ca9-c889-49e2-baf6-f90cd9139794)
   )
   (junction (at 269.24 331.47) (diameter 0) (color 0 0 0 0)
     (uuid 834dab45-f669-42ee-a5fe-62a6a957d901)
   )
-  (junction (at 361.95 180.34) (diameter 0) (color 0 0 0 0)
+  (junction (at 345.44 173.99) (diameter 0) (color 0 0 0 0)
     (uuid 87060bfa-1889-428b-8c82-fe2ebe1275b9)
   )
   (junction (at 269.24 349.25) (diameter 0) (color 0 0 0 0)
@@ -3006,7 +3119,7 @@
   (junction (at 181.61 85.09) (diameter 0) (color 0 0 0 0)
     (uuid 95719b68-904a-4245-a24e-fe62d52ce1a2)
   )
-  (junction (at 391.16 163.83) (diameter 0) (color 0 0 0 0)
+  (junction (at 387.35 107.95) (diameter 0) (color 0 0 0 0)
     (uuid 96381b47-39d5-417b-a287-31e84af67ff8)
   )
   (junction (at 287.02 361.95) (diameter 0) (color 0 0 0 0)
@@ -3042,7 +3155,7 @@
   (junction (at 293.37 254) (diameter 0) (color 0 0 0 0)
     (uuid b2e0bdde-2dab-4ad8-a6b3-9cf04502ddea)
   )
-  (junction (at 284.48 189.23) (diameter 0) (color 0 0 0 0)
+  (junction (at 267.97 182.88) (diameter 0) (color 0 0 0 0)
     (uuid b4719fff-85f7-4119-bf9b-954bef62c58c)
   )
   (junction (at 48.26 95.25) (diameter 0) (color 0 0 0 0)
@@ -3063,13 +3176,13 @@
   (junction (at 86.36 152.4) (diameter 0) (color 0 0 0 0)
     (uuid cbd629b9-9eb7-4ba4-a3ef-1e555d294a35)
   )
-  (junction (at 410.21 171.45) (diameter 0) (color 0 0 0 0)
+  (junction (at 406.4 115.57) (diameter 0) (color 0 0 0 0)
     (uuid cc222144-5138-43c8-825f-32b02f9a4a52)
   )
   (junction (at 162.56 261.62) (diameter 0) (color 0 0 0 0)
     (uuid cf8a4636-77e6-42b4-bc23-6203e5c2c965)
   )
-  (junction (at 271.78 96.52) (diameter 0) (color 0 0 0 0)
+  (junction (at 271.78 83.82) (diameter 0) (color 0 0 0 0)
     (uuid d06f252c-e05a-4132-a988-0199258219ea)
   )
   (junction (at 247.65 317.5) (diameter 0) (color 0 0 0 0)
@@ -3120,7 +3233,7 @@
   (junction (at 506.73 330.2) (diameter 0) (color 0 0 0 0)
     (uuid f469de97-0df4-4935-a91d-dc2fb1760038)
   )
-  (junction (at 317.5 66.04) (diameter 0) (color 0 0 0 0)
+  (junction (at 317.5 53.34) (diameter 0) (color 0 0 0 0)
     (uuid f53133b3-525b-43f1-9dd6-1b4acebe5931)
   )
   (junction (at 46.99 311.15) (diameter 0) (color 0 0 0 0)
@@ -3129,7 +3242,7 @@
   (junction (at 144.78 85.09) (diameter 0) (color 0 0 0 0)
     (uuid f6616f73-cd28-4a6b-972d-e2fcf474f8dc)
   )
-  (junction (at 308.61 180.34) (diameter 0) (color 0 0 0 0)
+  (junction (at 292.1 173.99) (diameter 0) (color 0 0 0 0)
     (uuid fad942b9-2966-4022-9018-4eab7b0ccdde)
   )
   (junction (at 160.02 254) (diameter 0) (color 0 0 0 0)
@@ -3137,13 +3250,15 @@
   )
 
   (no_connect (at 121.92 97.79) (uuid 270b8bf8-6363-49e1-9c18-b44eb1fe36dc))
-  (no_connect (at 358.14 170.18) (uuid 63a4d51c-d09d-44c8-b87c-3d83bc6038e1))
-  (no_connect (at 340.36 180.34) (uuid 7c38c157-63f8-4610-8270-48bf4b389238))
-  (no_connect (at 288.29 180.34) (uuid 8f2f6d9f-3294-4d3c-a00b-35c409c41a15))
-  (no_connect (at 306.07 170.18) (uuid cfe74fba-51bb-49a0-b08a-5e28441ad2ed))
-  (no_connect (at 411.48 166.37) (uuid fe5b31bb-0dde-4732-a285-f75b43865339))
+  (no_connect (at 341.63 163.83) (uuid 63a4d51c-d09d-44c8-b87c-3d83bc6038e1))
+  (no_connect (at 323.85 173.99) (uuid 7c38c157-63f8-4610-8270-48bf4b389238))
+  (no_connect (at 271.78 173.99) (uuid 8f2f6d9f-3294-4d3c-a00b-35c409c41a15))
+  (no_connect (at 525.78 339.09) (uuid bd06336b-1a82-4de3-b42d-55cc552ca26c))
+  (no_connect (at 412.75 175.26) (uuid cbf9a98a-8a44-44b2-83ea-66633e508def))
+  (no_connect (at 289.56 163.83) (uuid cfe74fba-51bb-49a0-b08a-5e28441ad2ed))
+  (no_connect (at 407.67 110.49) (uuid fe5b31bb-0dde-4732-a285-f75b43865339))
 
-  (wire (pts (xy 438.15 158.75) (xy 438.15 161.29))
+  (wire (pts (xy 434.34 102.87) (xy 434.34 105.41))
     (stroke (width 0) (type default))
     (uuid 009abec8-b8ba-4b04-b17d-f1e9e331258e)
   )
@@ -3183,7 +3298,7 @@
     (stroke (width 0) (type default))
     (uuid 0493de2c-15ef-4b94-b53c-ab1f8b124b64)
   )
-  (wire (pts (xy 283.21 100.33) (xy 289.56 100.33))
+  (wire (pts (xy 283.21 87.63) (xy 289.56 87.63))
     (stroke (width 0) (type default))
     (uuid 05052d5e-3c52-4790-91b7-ee0b794cb1b2)
   )
@@ -3195,7 +3310,7 @@
     (stroke (width 0) (type default))
     (uuid 05d3a0b3-4222-4d67-a936-2fe99dbeaf84)
   )
-  (wire (pts (xy 356.87 95.25) (xy 355.6 95.25))
+  (wire (pts (xy 356.87 82.55) (xy 355.6 82.55))
     (stroke (width 0) (type default))
     (uuid 07a6d1d2-0b03-4992-80a6-7f0d3fd38944)
   )
@@ -3219,7 +3334,7 @@
     (stroke (width 0) (type default))
     (uuid 090c2171-b0f1-4692-bdb5-f25486b70f83)
   )
-  (wire (pts (xy 269.24 96.52) (xy 271.78 96.52))
+  (wire (pts (xy 269.24 83.82) (xy 271.78 83.82))
     (stroke (width 0) (type default))
     (uuid 0919f515-b57e-45bd-8a4b-b2848a3a0b4a)
   )
@@ -3231,7 +3346,7 @@
     (stroke (width 0) (type default))
     (uuid 0a455e5c-f6d5-45e3-96ed-516acb3a9871)
   )
-  (wire (pts (xy 274.32 104.14) (xy 274.32 107.95))
+  (wire (pts (xy 274.32 91.44) (xy 274.32 95.25))
     (stroke (width 0) (type default))
     (uuid 0a55088f-e5e0-4ca0-8df8-b206cff4b40d)
   )
@@ -3271,7 +3386,7 @@
     (stroke (width 0) (type default))
     (uuid 1140ebb3-57bd-4838-bbcf-98bd37b65ade)
   )
-  (wire (pts (xy 284.48 189.23) (xy 293.37 189.23))
+  (wire (pts (xy 267.97 182.88) (xy 276.86 182.88))
     (stroke (width 0) (type default))
     (uuid 119b086f-cf54-47dd-81b8-0d05decbb8f9)
   )
@@ -3319,7 +3434,7 @@
     (stroke (width 0) (type default))
     (uuid 1769ec3f-4ab1-402d-b635-b11839984f58)
   )
-  (wire (pts (xy 401.32 86.36) (xy 408.94 86.36))
+  (wire (pts (xy 401.32 73.66) (xy 408.94 73.66))
     (stroke (width 0) (type default))
     (uuid 17bdbb76-f106-4d20-91f9-7336b017c2f4)
   )
@@ -3327,7 +3442,7 @@
     (stroke (width 0) (type default))
     (uuid 185ded04-40e7-4878-95f3-e6c4a60c6804)
   )
-  (wire (pts (xy 345.44 107.95) (xy 363.22 107.95))
+  (wire (pts (xy 345.44 95.25) (xy 363.22 95.25))
     (stroke (width 0) (type default))
     (uuid 18bef0a1-85c2-403e-8c66-92b733f82b4d)
   )
@@ -3347,11 +3462,11 @@
     (stroke (width 0) (type default))
     (uuid 1c4108e1-00f3-4b8a-8909-19db7e46fa9b)
   )
-  (wire (pts (xy 267.97 72.39) (xy 267.97 80.01))
+  (wire (pts (xy 267.97 59.69) (xy 267.97 67.31))
     (stroke (width 0) (type default))
     (uuid 1d6f56b0-0f4b-4ea8-81da-c50f54baf501)
   )
-  (wire (pts (xy 308.61 180.34) (xy 317.5 180.34))
+  (wire (pts (xy 292.1 173.99) (xy 300.99 173.99))
     (stroke (width 0) (type default))
     (uuid 1dba04e3-0a3b-46da-a058-edf9f6dbb3ed)
   )
@@ -3387,7 +3502,7 @@
     (stroke (width 0) (type default))
     (uuid 1f0bacc2-50bf-492b-a5c5-69572620ff02)
   )
-  (wire (pts (xy 421.64 96.52) (xy 429.26 96.52))
+  (wire (pts (xy 421.64 83.82) (xy 429.26 83.82))
     (stroke (width 0) (type default))
     (uuid 1f78dda1-e769-4ea2-a0f8-e113971e7c6c)
   )
@@ -3435,7 +3550,7 @@
     (stroke (width 0) (type default))
     (uuid 22b89dc4-74bf-47e3-b5a8-b986810c1f53)
   )
-  (wire (pts (xy 288.29 72.39) (xy 267.97 72.39))
+  (wire (pts (xy 288.29 59.69) (xy 267.97 59.69))
     (stroke (width 0) (type default))
     (uuid 231233b8-3786-497c-8e5d-f4279f6f7ae7)
   )
@@ -3479,11 +3594,11 @@
     (stroke (width 0) (type default))
     (uuid 27235abd-cd67-4efb-8620-44bc571bb7c4)
   )
-  (wire (pts (xy 283.21 92.71) (xy 289.56 92.71))
+  (wire (pts (xy 283.21 80.01) (xy 289.56 80.01))
     (stroke (width 0) (type default))
     (uuid 272c430e-cfae-4e8a-b0a1-9f6ca3ad8bfb)
   )
-  (wire (pts (xy 396.24 158.75) (xy 403.86 158.75))
+  (wire (pts (xy 392.43 102.87) (xy 400.05 102.87))
     (stroke (width 0) (type default))
     (uuid 276fe6e0-a273-4386-8bf1-bafea13ad11c)
   )
@@ -3491,7 +3606,7 @@
     (stroke (width 0) (type default))
     (uuid 27ee510e-cf49-481d-b150-880bb7d21863)
   )
-  (wire (pts (xy 361.95 180.34) (xy 361.95 189.23))
+  (wire (pts (xy 345.44 173.99) (xy 345.44 182.88))
     (stroke (width 0) (type default))
     (uuid 287b839d-282b-4744-8260-bc0cc3dcd987)
   )
@@ -3527,7 +3642,7 @@
     (stroke (width 0) (type default))
     (uuid 2ab3fb28-1952-476c-9529-71722beccf6e)
   )
-  (wire (pts (xy 295.91 72.39) (xy 317.5 72.39))
+  (wire (pts (xy 295.91 59.69) (xy 317.5 59.69))
     (stroke (width 0) (type default))
     (uuid 2abce7f5-5ac3-4312-a192-df0e301db74a)
   )
@@ -3535,7 +3650,7 @@
     (stroke (width 0) (type default))
     (uuid 2b12f638-6937-4e19-bfef-2cf5978280fd)
   )
-  (wire (pts (xy 267.97 80.01) (xy 289.56 80.01))
+  (wire (pts (xy 267.97 67.31) (xy 289.56 67.31))
     (stroke (width 0) (type default))
     (uuid 2bdf3911-700a-497a-94a9-687cf1046e0f)
   )
@@ -3567,7 +3682,7 @@
     (stroke (width 0) (type default))
     (uuid 30049279-ee2f-426a-aec9-f8c9500eb6e9)
   )
-  (wire (pts (xy 336.55 170.18) (xy 336.55 189.23))
+  (wire (pts (xy 320.04 163.83) (xy 320.04 182.88))
     (stroke (width 0) (type default))
     (uuid 301f7908-12a1-4eb1-b941-7c4b60d9f057)
   )
@@ -3619,11 +3734,11 @@
     (stroke (width 0) (type default))
     (uuid 35e25239-68f7-4e4e-bcc8-cbbc8003c9c0)
   )
-  (wire (pts (xy 283.21 85.09) (xy 289.56 85.09))
+  (wire (pts (xy 283.21 72.39) (xy 289.56 72.39))
     (stroke (width 0) (type default))
     (uuid 3668ee63-c0d0-4ef4-8080-a54abbbefdf3)
   )
-  (wire (pts (xy 403.86 158.75) (xy 403.86 167.64))
+  (wire (pts (xy 400.05 102.87) (xy 400.05 111.76))
     (stroke (width 0) (type default))
     (uuid 36c10f34-1df6-4389-aaa1-254c7a4556f9)
   )
@@ -3639,7 +3754,7 @@
     (stroke (width 0) (type default))
     (uuid 37dd2346-501a-4bb8-96e9-61f1db1d282a)
   )
-  (wire (pts (xy 397.51 161.29) (xy 397.51 167.64))
+  (wire (pts (xy 393.7 105.41) (xy 393.7 111.76))
     (stroke (width 0) (type default))
     (uuid 3a59f8bf-12c3-4d0e-b970-61d399b29751)
   )
@@ -3659,7 +3774,7 @@
     (stroke (width 0) (type default))
     (uuid 3bda365e-b828-4755-968e-e291c80c50af)
   )
-  (wire (pts (xy 436.88 168.91) (xy 438.15 168.91))
+  (wire (pts (xy 433.07 113.03) (xy 434.34 113.03))
     (stroke (width 0) (type default))
     (uuid 3c72af32-ef29-47b4-b25d-36c278d6ffe3)
   )
@@ -3715,7 +3830,7 @@
     (stroke (width 0) (type default))
     (uuid 419dc3c5-a973-43a7-8b54-e100c6f54dcc)
   )
-  (wire (pts (xy 283.21 102.87) (xy 289.56 102.87))
+  (wire (pts (xy 283.21 90.17) (xy 289.56 90.17))
     (stroke (width 0) (type default))
     (uuid 41b5b16b-63f1-4058-b2f7-841591c3080e)
   )
@@ -3727,7 +3842,7 @@
     (stroke (width 0) (type default))
     (uuid 42f07a2f-0c41-4460-ba49-7cd2909a8e8b)
   )
-  (wire (pts (xy 346.71 100.33) (xy 363.22 100.33))
+  (wire (pts (xy 346.71 87.63) (xy 363.22 87.63))
     (stroke (width 0) (type default))
     (uuid 440d9bf9-6b55-4fbf-b226-78a69e9e0859)
   )
@@ -3767,7 +3882,7 @@
     (stroke (width 0) (type default))
     (uuid 48f843f3-9691-4db4-8ac8-e6a24877481a)
   )
-  (wire (pts (xy 421.64 86.36) (xy 429.26 86.36))
+  (wire (pts (xy 421.64 73.66) (xy 429.26 73.66))
     (stroke (width 0) (type default))
     (uuid 497023ee-5f12-4df3-9346-0041b730cd84)
   )
@@ -3783,7 +3898,7 @@
     (stroke (width 0) (type default))
     (uuid 49c8cd11-fa4e-49b7-92cc-6c5e1d6c5899)
   )
-  (wire (pts (xy 383.54 161.29) (xy 397.51 161.29))
+  (wire (pts (xy 379.73 105.41) (xy 393.7 105.41))
     (stroke (width 0) (type default))
     (uuid 49eed83f-7604-4dd3-b807-1ca86fb9621c)
   )
@@ -3795,7 +3910,7 @@
     (stroke (width 0) (type default))
     (uuid 4a2d486c-16fa-4beb-9f66-f9f6defa095d)
   )
-  (wire (pts (xy 391.16 163.83) (xy 391.16 167.64))
+  (wire (pts (xy 387.35 107.95) (xy 387.35 111.76))
     (stroke (width 0) (type default))
     (uuid 4af88b65-4ebb-42b2-a9c6-a793501a6f25)
   )
@@ -3807,11 +3922,11 @@
     (stroke (width 0) (type default))
     (uuid 4d6c67aa-1fc0-46df-ba4d-a0a4d3a976b3)
   )
-  (wire (pts (xy 410.21 168.91) (xy 410.21 171.45))
+  (wire (pts (xy 406.4 113.03) (xy 406.4 115.57))
     (stroke (width 0) (type default))
     (uuid 4dbe2483-01d6-4e18-8417-cea299b7cbbd)
   )
-  (wire (pts (xy 340.36 170.18) (xy 336.55 170.18))
+  (wire (pts (xy 323.85 163.83) (xy 320.04 163.83))
     (stroke (width 0) (type default))
     (uuid 4dfc2d66-be61-4451-b968-46bd23bac4b6)
   )
@@ -3847,11 +3962,11 @@
     (stroke (width 0) (type default))
     (uuid 540f6b38-fe09-49db-82ce-0dc7dcf5103b)
   )
-  (wire (pts (xy 303.53 66.04) (xy 306.07 66.04))
+  (wire (pts (xy 303.53 53.34) (xy 306.07 53.34))
     (stroke (width 0) (type default))
     (uuid 5419baef-bd3d-4c7b-8f21-bdcd492fa7b2)
   )
-  (wire (pts (xy 345.44 115.57) (xy 363.22 115.57))
+  (wire (pts (xy 345.44 102.87) (xy 363.22 102.87))
     (stroke (width 0) (type default))
     (uuid 54a20174-fd86-4a1e-9c12-7c8f1ffc4bf9)
   )
@@ -3863,15 +3978,15 @@
     (stroke (width 0) (type default))
     (uuid 5665c427-96e9-4db9-b910-58a555574fcc)
   )
-  (wire (pts (xy 403.86 158.75) (xy 411.48 158.75))
+  (wire (pts (xy 400.05 102.87) (xy 407.67 102.87))
     (stroke (width 0) (type default))
     (uuid 56a099ca-d9b7-43e3-8389-a0233af83fc6)
   )
-  (wire (pts (xy 421.64 81.28) (xy 429.26 81.28))
+  (wire (pts (xy 421.64 68.58) (xy 429.26 68.58))
     (stroke (width 0) (type default))
     (uuid 5752364f-f82c-4923-a599-bd3487230213)
   )
-  (wire (pts (xy 401.32 91.44) (xy 408.94 91.44))
+  (wire (pts (xy 401.32 78.74) (xy 408.94 78.74))
     (stroke (width 0) (type default))
     (uuid 57763b3e-a84c-4387-b489-2d88a76081e4)
   )
@@ -3891,7 +4006,7 @@
     (stroke (width 0) (type default))
     (uuid 58bd72a8-e5b6-49c2-849b-774a1be8921d)
   )
-  (wire (pts (xy 436.88 163.83) (xy 438.15 163.83))
+  (wire (pts (xy 433.07 107.95) (xy 434.34 107.95))
     (stroke (width 0) (type default))
     (uuid 597c2053-3df0-41fe-a37c-102b3bdfbd72)
   )
@@ -3903,7 +4018,7 @@
     (stroke (width 0) (type default))
     (uuid 59f2f70b-eb80-4377-a05c-b5a7112c6de3)
   )
-  (wire (pts (xy 410.21 171.45) (xy 410.21 177.8))
+  (wire (pts (xy 406.4 115.57) (xy 406.4 121.92))
     (stroke (width 0) (type default))
     (uuid 5a9d0cf2-0803-4431-b6b7-c1b6da87dd76)
   )
@@ -3935,7 +4050,7 @@
     (stroke (width 0) (type default))
     (uuid 61427f16-c599-4a1d-b427-8c1cfa9ac083)
   )
-  (wire (pts (xy 269.24 104.14) (xy 269.24 105.41))
+  (wire (pts (xy 269.24 91.44) (xy 269.24 92.71))
     (stroke (width 0) (type default))
     (uuid 61742d15-eeb0-47ac-912e-02e4a509b42b)
   )
@@ -3983,7 +4098,7 @@
     (stroke (width 0) (type default))
     (uuid 69728567-e6f9-4e23-8684-b7a3966ddc6c)
   )
-  (wire (pts (xy 401.32 83.82) (xy 408.94 83.82))
+  (wire (pts (xy 401.32 71.12) (xy 408.94 71.12))
     (stroke (width 0) (type default))
     (uuid 69b556e7-e66d-4719-9da5-ef94da3eaea7)
   )
@@ -3991,7 +4106,7 @@
     (stroke (width 0) (type default))
     (uuid 6a66bfb7-43b0-4297-9425-e63fe3306faf)
   )
-  (wire (pts (xy 271.78 96.52) (xy 274.32 96.52))
+  (wire (pts (xy 271.78 83.82) (xy 274.32 83.82))
     (stroke (width 0) (type default))
     (uuid 6ac82ff8-565f-4f43-a4e0-1b9cb2537344)
   )
@@ -4003,11 +4118,11 @@
     (stroke (width 0) (type default))
     (uuid 6b8c55d6-0fd9-4f62-b776-f1baa8c31047)
   )
-  (wire (pts (xy 401.32 81.28) (xy 408.94 81.28))
+  (wire (pts (xy 401.32 68.58) (xy 408.94 68.58))
     (stroke (width 0) (type default))
     (uuid 6c0e6b35-5085-4c02-8720-d488426a3ca3)
   )
-  (wire (pts (xy 317.5 66.04) (xy 313.69 66.04))
+  (wire (pts (xy 317.5 53.34) (xy 313.69 53.34))
     (stroke (width 0) (type default))
     (uuid 6ccbee04-b6a9-45ee-941b-6f6eee7da5f3)
   )
@@ -4115,11 +4230,11 @@
     (stroke (width 0) (type default))
     (uuid 78fedd86-bf22-4745-8d4a-3b3e76c12488)
   )
-  (wire (pts (xy 336.55 189.23) (xy 336.55 190.5))
+  (wire (pts (xy 320.04 182.88) (xy 320.04 184.15))
     (stroke (width 0) (type default))
     (uuid 7a3f3578-19b3-488d-b0b1-47b11b984e38)
   )
-  (wire (pts (xy 421.64 91.44) (xy 429.26 91.44))
+  (wire (pts (xy 421.64 78.74) (xy 429.26 78.74))
     (stroke (width 0) (type default))
     (uuid 7a531087-7cae-4d0e-886c-aee0e4f4c07b)
   )
@@ -4127,15 +4242,15 @@
     (stroke (width 0) (type default))
     (uuid 7a82bdee-a28a-4175-a2f0-13b6b2461008)
   )
-  (wire (pts (xy 274.32 107.95) (xy 264.16 107.95))
+  (wire (pts (xy 274.32 95.25) (xy 264.16 95.25))
     (stroke (width 0) (type default))
     (uuid 7b17dc8c-6e75-4493-96a5-765052934653)
   )
-  (wire (pts (xy 284.48 170.18) (xy 284.48 189.23))
+  (wire (pts (xy 267.97 163.83) (xy 267.97 182.88))
     (stroke (width 0) (type default))
     (uuid 7b6c3295-7770-4e4e-9f22-6c8318b63a49)
   )
-  (wire (pts (xy 306.07 180.34) (xy 308.61 180.34))
+  (wire (pts (xy 289.56 173.99) (xy 292.1 173.99))
     (stroke (width 0) (type default))
     (uuid 7b7f105b-8e8d-4d4b-8934-70c42077d383)
   )
@@ -4143,7 +4258,7 @@
     (stroke (width 0) (type default))
     (uuid 7c84696e-7880-4231-9937-500022cb489e)
   )
-  (wire (pts (xy 345.44 120.65) (xy 363.22 120.65))
+  (wire (pts (xy 345.44 107.95) (xy 363.22 107.95))
     (stroke (width 0) (type default))
     (uuid 7cdcf757-1f70-4187-8824-226c5d6f7c05)
   )
@@ -4179,7 +4294,7 @@
     (stroke (width 0) (type default))
     (uuid 805dc753-8593-45ad-b58f-800b15a30c8a)
   )
-  (wire (pts (xy 345.44 123.19) (xy 363.22 123.19))
+  (wire (pts (xy 345.44 110.49) (xy 363.22 110.49))
     (stroke (width 0) (type default))
     (uuid 80fbe26c-3921-4f3b-bcac-7d7956254f88)
   )
@@ -4231,11 +4346,11 @@
     (stroke (width 0) (type default))
     (uuid 88b3fd0a-d044-4365-b255-dc59efa72432)
   )
-  (wire (pts (xy 383.54 163.83) (xy 391.16 163.83))
+  (wire (pts (xy 379.73 107.95) (xy 387.35 107.95))
     (stroke (width 0) (type default))
     (uuid 88e79208-ab55-4637-b891-a5d82b15567a)
   )
-  (wire (pts (xy 345.44 82.55) (xy 363.22 82.55))
+  (wire (pts (xy 345.44 69.85) (xy 363.22 69.85))
     (stroke (width 0) (type default))
     (uuid 89022872-553a-457f-85f2-0aa7f23bd00c)
   )
@@ -4255,7 +4370,7 @@
     (stroke (width 0) (type default))
     (uuid 8b1b4360-bda8-4471-9754-9e59f4f04ba3)
   )
-  (wire (pts (xy 345.44 90.17) (xy 363.22 90.17))
+  (wire (pts (xy 345.44 77.47) (xy 363.22 77.47))
     (stroke (width 0) (type default))
     (uuid 8bf2bd23-e121-4d2c-a361-5d1a81310346)
   )
@@ -4267,7 +4382,7 @@
     (stroke (width 0) (type default))
     (uuid 8d100dc2-8dac-46fa-a898-1a68e6c411bd)
   )
-  (wire (pts (xy 438.15 168.91) (xy 438.15 177.8))
+  (wire (pts (xy 434.34 113.03) (xy 434.34 121.92))
     (stroke (width 0) (type default))
     (uuid 8d99ec12-2320-4757-bd4f-d033b5931c69)
   )
@@ -4275,7 +4390,7 @@
     (stroke (width 0) (type default))
     (uuid 8f6de891-962f-4bde-b828-a2024b7bc04d)
   )
-  (wire (pts (xy 438.15 163.83) (xy 438.15 166.37))
+  (wire (pts (xy 434.34 107.95) (xy 434.34 110.49))
     (stroke (width 0) (type default))
     (uuid 8f9adaab-e53c-4ba6-8c5a-de9670be3676)
   )
@@ -4339,7 +4454,7 @@
     (stroke (width 0) (type default))
     (uuid 936d2cf3-1b39-4dbb-b6d1-3fc92c87a3ed)
   )
-  (wire (pts (xy 346.71 95.25) (xy 346.71 100.33))
+  (wire (pts (xy 346.71 82.55) (xy 346.71 87.63))
     (stroke (width 0) (type default))
     (uuid 93c02d8a-f763-4b5d-be36-64fef0ba208f)
   )
@@ -4351,7 +4466,7 @@
     (stroke (width 0) (type default))
     (uuid 9453d3d9-8091-4985-9181-f9e6b3da9938)
   )
-  (wire (pts (xy 421.64 83.82) (xy 429.26 83.82))
+  (wire (pts (xy 421.64 71.12) (xy 429.26 71.12))
     (stroke (width 0) (type default))
     (uuid 9457bb8f-2213-4ffd-b33d-e6ce04169d70)
   )
@@ -4363,7 +4478,7 @@
     (stroke (width 0) (type default))
     (uuid 94d6c2a1-5d9f-44d3-9590-61d94e88c4cd)
   )
-  (wire (pts (xy 336.55 189.23) (xy 346.71 189.23))
+  (wire (pts (xy 320.04 182.88) (xy 330.2 182.88))
     (stroke (width 0) (type default))
     (uuid 9557b044-0fbc-4dde-beec-4cc8ee6f7dad)
   )
@@ -4403,11 +4518,11 @@
     (stroke (width 0) (type default))
     (uuid 9a90673f-7989-4dfe-83f5-93f77cc8e016)
   )
-  (wire (pts (xy 401.32 96.52) (xy 408.94 96.52))
+  (wire (pts (xy 401.32 83.82) (xy 408.94 83.82))
     (stroke (width 0) (type default))
     (uuid 9aa2978c-df5c-4951-8d52-2fa034b91f8c)
   )
-  (wire (pts (xy 358.14 180.34) (xy 361.95 180.34))
+  (wire (pts (xy 341.63 173.99) (xy 345.44 173.99))
     (stroke (width 0) (type default))
     (uuid 9ae56b88-10d4-4ce2-a4cb-b435d2fbe8a2)
   )
@@ -4415,7 +4530,7 @@
     (stroke (width 0) (type default))
     (uuid 9ce52d0b-b8e6-40bf-ac9e-8b48a55e7d46)
   )
-  (wire (pts (xy 274.32 107.95) (xy 289.56 107.95))
+  (wire (pts (xy 274.32 95.25) (xy 289.56 95.25))
     (stroke (width 0) (type default))
     (uuid 9cfa8e7a-8f41-45f6-be6e-f016c2c33d23)
   )
@@ -4423,7 +4538,7 @@
     (stroke (width 0) (type default))
     (uuid 9e7c64a3-8e53-4000-b848-23005b9171f6)
   )
-  (wire (pts (xy 401.32 88.9) (xy 408.94 88.9))
+  (wire (pts (xy 401.32 76.2) (xy 408.94 76.2))
     (stroke (width 0) (type default))
     (uuid 9f2ac406-1326-4717-a6e5-cb3853cc8615)
   )
@@ -4443,7 +4558,7 @@
     (stroke (width 0) (type default))
     (uuid a0acc1f8-b4b3-4740-88d6-c5bc2d34d754)
   )
-  (wire (pts (xy 438.15 161.29) (xy 438.15 163.83))
+  (wire (pts (xy 434.34 105.41) (xy 434.34 107.95))
     (stroke (width 0) (type default))
     (uuid a0ba7ade-b851-488f-95a4-242fa15fa42a)
   )
@@ -4455,7 +4570,7 @@
     (stroke (width 0) (type default))
     (uuid a27fc490-40b9-440a-9f64-e039b4682555)
   )
-  (wire (pts (xy 397.51 161.29) (xy 411.48 161.29))
+  (wire (pts (xy 393.7 105.41) (xy 407.67 105.41))
     (stroke (width 0) (type default))
     (uuid a40fb567-e167-4eb5-9d0d-b6b242b5cd63)
   )
@@ -4463,7 +4578,7 @@
     (stroke (width 0) (type default))
     (uuid a4253af2-f65b-4523-a74f-f6bd7bd9b1d4)
   )
-  (wire (pts (xy 438.15 166.37) (xy 438.15 168.91))
+  (wire (pts (xy 434.34 110.49) (xy 434.34 113.03))
     (stroke (width 0) (type default))
     (uuid a50b6264-193b-4e73-8151-efe8dccb1bb3)
   )
@@ -4483,11 +4598,11 @@
     (stroke (width 0) (type default))
     (uuid a580ee66-59ce-4631-9582-422adc5e104e)
   )
-  (wire (pts (xy 283.21 90.17) (xy 289.56 90.17))
+  (wire (pts (xy 283.21 77.47) (xy 289.56 77.47))
     (stroke (width 0) (type default))
     (uuid a58b101b-9c15-4dba-80a8-02a847467028)
   )
-  (wire (pts (xy 436.88 158.75) (xy 438.15 158.75))
+  (wire (pts (xy 433.07 102.87) (xy 434.34 102.87))
     (stroke (width 0) (type default))
     (uuid a652e6d7-5bef-41be-b790-246e0e3edc01)
   )
@@ -4507,7 +4622,7 @@
     (stroke (width 0) (type default))
     (uuid a7200235-0f45-40d0-8b76-84ea15c8caf2)
   )
-  (wire (pts (xy 345.44 102.87) (xy 363.22 102.87))
+  (wire (pts (xy 345.44 90.17) (xy 363.22 90.17))
     (stroke (width 0) (type default))
     (uuid a79f481d-c6fa-4ece-a07f-39afa2147ae1)
   )
@@ -4519,7 +4634,7 @@
     (stroke (width 0) (type default))
     (uuid aa5ff154-b1ce-40ff-8df9-22bc9c63d5aa)
   )
-  (wire (pts (xy 346.71 95.25) (xy 347.98 95.25))
+  (wire (pts (xy 346.71 82.55) (xy 347.98 82.55))
     (stroke (width 0) (type default))
     (uuid ab7148b2-f057-477a-9929-ac932becb659)
   )
@@ -4539,7 +4654,7 @@
     (stroke (width 0) (type default))
     (uuid ad178c9c-fd03-4d70-a5ff-76f30fc1120b)
   )
-  (wire (pts (xy 269.24 105.41) (xy 264.16 105.41))
+  (wire (pts (xy 269.24 92.71) (xy 264.16 92.71))
     (stroke (width 0) (type default))
     (uuid ad27498d-0320-4b86-b0b5-45c014167029)
   )
@@ -4603,7 +4718,7 @@
     (stroke (width 0) (type default))
     (uuid b393f1d1-ce9e-41f9-8569-b969eadc8290)
   )
-  (wire (pts (xy 361.95 189.23) (xy 354.33 189.23))
+  (wire (pts (xy 345.44 182.88) (xy 337.82 182.88))
     (stroke (width 0) (type default))
     (uuid b3b8bb12-31ab-465c-87f3-73da67f84e88)
   )
@@ -4619,7 +4734,7 @@
     (stroke (width 0) (type default))
     (uuid b701c715-e261-4acd-ae30-50ca4c399594)
   )
-  (wire (pts (xy 308.61 189.23) (xy 308.61 180.34))
+  (wire (pts (xy 292.1 182.88) (xy 292.1 173.99))
     (stroke (width 0) (type default))
     (uuid b755f005-84ce-4b7a-9992-cb6abf612755)
   )
@@ -4651,7 +4766,7 @@
     (stroke (width 0) (type default))
     (uuid bb3e6ab0-232f-471d-9c33-24621c65d5ce)
   )
-  (wire (pts (xy 345.44 110.49) (xy 363.22 110.49))
+  (wire (pts (xy 345.44 97.79) (xy 363.22 97.79))
     (stroke (width 0) (type default))
     (uuid bb58ebbb-4f0b-4c31-8dfd-b9e268e0beaf)
   )
@@ -4659,7 +4774,7 @@
     (stroke (width 0) (type default))
     (uuid bb802509-b7d4-4185-aecd-33725eca0c6b)
   )
-  (wire (pts (xy 421.64 93.98) (xy 429.26 93.98))
+  (wire (pts (xy 421.64 81.28) (xy 429.26 81.28))
     (stroke (width 0) (type default))
     (uuid bb98a2a1-8b19-48af-9e64-72cf9da859a2)
   )
@@ -4679,7 +4794,7 @@
     (stroke (width 0) (type default))
     (uuid bd36d157-ca31-4cc9-8858-ebb1c5f81d00)
   )
-  (wire (pts (xy 401.32 93.98) (xy 408.94 93.98))
+  (wire (pts (xy 401.32 81.28) (xy 408.94 81.28))
     (stroke (width 0) (type default))
     (uuid bdd2ed20-6c68-4253-b78e-378480605ab8)
   )
@@ -4695,7 +4810,7 @@
     (stroke (width 0) (type default))
     (uuid bfc6d8c2-5400-4868-96ea-8b3f94adb307)
   )
-  (wire (pts (xy 345.44 87.63) (xy 363.22 87.63))
+  (wire (pts (xy 345.44 74.93) (xy 363.22 74.93))
     (stroke (width 0) (type default))
     (uuid c16a10d5-2a88-4e15-9a57-07e9b4f61344)
   )
@@ -4707,7 +4822,7 @@
     (stroke (width 0) (type default))
     (uuid c20d9ca2-dd21-45cc-b72b-e07e5becf87f)
   )
-  (wire (pts (xy 410.21 171.45) (xy 411.48 171.45))
+  (wire (pts (xy 406.4 115.57) (xy 407.67 115.57))
     (stroke (width 0) (type default))
     (uuid c28932e6-f279-4c6f-a73b-ff258fbfcec3)
   )
@@ -4715,7 +4830,7 @@
     (stroke (width 0) (type default))
     (uuid c2b72d0c-a7c4-4a99-b1fe-b608f33c5674)
   )
-  (wire (pts (xy 436.88 161.29) (xy 438.15 161.29))
+  (wire (pts (xy 433.07 105.41) (xy 434.34 105.41))
     (stroke (width 0) (type default))
     (uuid c2c606c3-36e6-4c49-b5e0-8ea91c83d947)
   )
@@ -4726,6 +4841,10 @@
   (wire (pts (xy 168.91 353.06) (xy 168.91 356.87))
     (stroke (width 0) (type default))
     (uuid c38181b7-d28a-4801-99cb-3b117b758e22)
+  )
+  (wire (pts (xy 388.62 175.26) (xy 397.51 175.26))
+    (stroke (width 0) (type default))
+    (uuid c401e282-1cac-473b-aece-791152680bc1)
   )
   (wire (pts (xy 59.69 109.22) (xy 59.69 104.14))
     (stroke (width 0) (type default))
@@ -4739,11 +4858,11 @@
     (stroke (width 0) (type default))
     (uuid c5106b59-b460-4503-97b7-afe03fae1962)
   )
-  (wire (pts (xy 345.44 113.03) (xy 363.22 113.03))
+  (wire (pts (xy 345.44 100.33) (xy 363.22 100.33))
     (stroke (width 0) (type default))
     (uuid c6d0ef7a-05fd-4725-b2ef-87706c3fa672)
   )
-  (wire (pts (xy 317.5 63.5) (xy 317.5 66.04))
+  (wire (pts (xy 317.5 50.8) (xy 317.5 53.34))
     (stroke (width 0) (type default))
     (uuid c75604d7-9637-4b39-8773-5bcb8c868a30)
   )
@@ -4755,7 +4874,7 @@
     (stroke (width 0) (type default))
     (uuid c890322c-94bf-4597-a720-c27db1a46a4c)
   )
-  (wire (pts (xy 317.5 142.24) (xy 317.5 140.97))
+  (wire (pts (xy 317.5 129.54) (xy 317.5 128.27))
     (stroke (width 0) (type default))
     (uuid c8c77ef9-19a1-47cb-ab65-86abf84d4b6f)
   )
@@ -4771,7 +4890,7 @@
     (stroke (width 0) (type default))
     (uuid c9beec66-6389-4543-b59e-10266d572e1d)
   )
-  (wire (pts (xy 269.24 105.41) (xy 289.56 105.41))
+  (wire (pts (xy 269.24 92.71) (xy 289.56 92.71))
     (stroke (width 0) (type default))
     (uuid ca33c19b-53dd-417e-89ca-39ec98d6ed4d)
   )
@@ -4831,7 +4950,7 @@
     (stroke (width 0) (type default))
     (uuid d0f0599e-1393-4195-9b24-2f30588d58a5)
   )
-  (wire (pts (xy 284.48 189.23) (xy 284.48 190.5))
+  (wire (pts (xy 267.97 182.88) (xy 267.97 184.15))
     (stroke (width 0) (type default))
     (uuid d15cb1ce-6c49-45c9-bce9-fe0bdbd2c44d)
   )
@@ -4883,7 +5002,7 @@
     (stroke (width 0) (type default))
     (uuid d96ea622-3674-40c3-a8b2-c3da76b71c8f)
   )
-  (wire (pts (xy 421.64 88.9) (xy 429.26 88.9))
+  (wire (pts (xy 421.64 76.2) (xy 429.26 76.2))
     (stroke (width 0) (type default))
     (uuid da2c6ae2-5173-4837-8dcb-90dfb615171c)
   )
@@ -4895,7 +5014,7 @@
     (stroke (width 0) (type default))
     (uuid daf1e638-bd80-4f8a-9c1f-c81e34553b87)
   )
-  (wire (pts (xy 300.99 189.23) (xy 308.61 189.23))
+  (wire (pts (xy 284.48 182.88) (xy 292.1 182.88))
     (stroke (width 0) (type default))
     (uuid db4e4d32-3fd8-43c1-a827-d567409e834e)
   )
@@ -4907,7 +5026,7 @@
     (stroke (width 0) (type default))
     (uuid dbbf8845-da5a-4f11-9bb8-247bf7f6d9fd)
   )
-  (wire (pts (xy 303.53 67.31) (xy 303.53 66.04))
+  (wire (pts (xy 303.53 54.61) (xy 303.53 53.34))
     (stroke (width 0) (type default))
     (uuid dbf875af-914a-4549-9c2b-136ee1ab26c3)
   )
@@ -4939,11 +5058,11 @@
     (stroke (width 0) (type default))
     (uuid df6b7fae-f730-49d0-bd81-f600234a95c8)
   )
-  (wire (pts (xy 283.21 87.63) (xy 289.56 87.63))
+  (wire (pts (xy 283.21 74.93) (xy 289.56 74.93))
     (stroke (width 0) (type default))
     (uuid dfbb753a-e781-4b35-8e5e-3c535894e6af)
   )
-  (wire (pts (xy 391.16 163.83) (xy 411.48 163.83))
+  (wire (pts (xy 387.35 107.95) (xy 407.67 107.95))
     (stroke (width 0) (type default))
     (uuid e05a7b4a-dbad-4494-9528-e655c1891580)
   )
@@ -4951,7 +5070,7 @@
     (stroke (width 0) (type default))
     (uuid e0ea3f22-a9df-4b69-8294-58f5f3056b4c)
   )
-  (wire (pts (xy 317.5 66.04) (xy 317.5 72.39))
+  (wire (pts (xy 317.5 53.34) (xy 317.5 59.69))
     (stroke (width 0) (type default))
     (uuid e0eeebc8-5104-45b5-ac87-1ad1b044badf)
   )
@@ -4971,7 +5090,7 @@
     (stroke (width 0) (type default))
     (uuid e27c47c1-7b4d-4e0e-9371-e9d7867d9091)
   )
-  (wire (pts (xy 345.44 100.33) (xy 346.71 100.33))
+  (wire (pts (xy 345.44 87.63) (xy 346.71 87.63))
     (stroke (width 0) (type default))
     (uuid e2a09b52-5e90-424a-89f6-2fcca794bf02)
   )
@@ -4991,7 +5110,7 @@
     (stroke (width 0) (type default))
     (uuid e4d11d4f-fcc1-45e4-ace8-118ee9d5d55f)
   )
-  (wire (pts (xy 401.32 78.74) (xy 408.94 78.74))
+  (wire (pts (xy 401.32 66.04) (xy 408.94 66.04))
     (stroke (width 0) (type default))
     (uuid e527963d-4dcd-43b2-a7d2-2d3db3c8e2db)
   )
@@ -5055,7 +5174,7 @@
     (stroke (width 0) (type default))
     (uuid ec87fed5-100e-456c-845c-80cbb311c12d)
   )
-  (wire (pts (xy 421.64 78.74) (xy 429.26 78.74))
+  (wire (pts (xy 421.64 66.04) (xy 429.26 66.04))
     (stroke (width 0) (type default))
     (uuid ecd99a4f-e311-479d-81cd-a076d95ef026)
   )
@@ -5099,11 +5218,11 @@
     (stroke (width 0) (type default))
     (uuid f1251b93-60de-4a9b-afcc-aa5c3bbb4927)
   )
-  (wire (pts (xy 288.29 170.18) (xy 284.48 170.18))
+  (wire (pts (xy 271.78 163.83) (xy 267.97 163.83))
     (stroke (width 0) (type default))
     (uuid f1532d83-ceff-4671-aaf2-dd0d2139caed)
   )
-  (wire (pts (xy 345.44 105.41) (xy 363.22 105.41))
+  (wire (pts (xy 345.44 92.71) (xy 363.22 92.71))
     (stroke (width 0) (type default))
     (uuid f21fb183-cab3-4f9b-bc1e-0eb905b76620)
   )
@@ -5115,7 +5234,7 @@
     (stroke (width 0) (type default))
     (uuid f42d52f1-b62d-478a-b4e8-2eae9fe8e76c)
   )
-  (wire (pts (xy 317.5 72.39) (xy 317.5 74.93))
+  (wire (pts (xy 317.5 59.69) (xy 317.5 62.23))
     (stroke (width 0) (type default))
     (uuid f464ad2a-519c-41ad-84c4-af862eec44e8)
   )
@@ -5147,7 +5266,7 @@
     (stroke (width 0) (type default))
     (uuid f8d54311-014b-4cf2-a9a5-ee5f146e235f)
   )
-  (wire (pts (xy 436.88 166.37) (xy 438.15 166.37))
+  (wire (pts (xy 433.07 110.49) (xy 434.34 110.49))
     (stroke (width 0) (type default))
     (uuid f90aa05d-f1a2-4736-9735-758a1b867f73)
   )
@@ -5163,7 +5282,7 @@
     (stroke (width 0) (type default))
     (uuid fad5471c-eb8b-4f00-8d66-2d4557b8efac)
   )
-  (wire (pts (xy 411.48 168.91) (xy 410.21 168.91))
+  (wire (pts (xy 407.67 113.03) (xy 406.4 113.03))
     (stroke (width 0) (type default))
     (uuid fbe23528-f36a-43a4-8784-22dbd502493e)
   )
@@ -5175,11 +5294,11 @@
     (stroke (width 0) (type default))
     (uuid fc9a5d5d-871a-4e14-888a-6bc60e90b539)
   )
-  (wire (pts (xy 345.44 80.01) (xy 363.22 80.01))
+  (wire (pts (xy 345.44 67.31) (xy 363.22 67.31))
     (stroke (width 0) (type default))
     (uuid fcc1974d-c420-44aa-96df-037fb8f52ae2)
   )
-  (wire (pts (xy 361.95 180.34) (xy 372.11 180.34))
+  (wire (pts (xy 345.44 173.99) (xy 355.6 173.99))
     (stroke (width 0) (type default))
     (uuid fd961af9-76d8-48b4-a8d5-855516aa2c79)
   )
@@ -5187,7 +5306,7 @@
     (stroke (width 0) (type default))
     (uuid fe38ae2e-39db-4f4a-b67a-6e159f0c0551)
   )
-  (wire (pts (xy 345.44 118.11) (xy 363.22 118.11))
+  (wire (pts (xy 345.44 105.41) (xy 363.22 105.41))
     (stroke (width 0) (type default))
     (uuid ff0fcdb5-a460-4aa6-8616-7fbde2ab2895)
   )
@@ -5277,7 +5396,7 @@
     (uuid fe35e0b5-2e8d-4590-9237-24fdd78c6722)
   )
 
-  (label "ADC2" (at 283.21 90.17 0) (fields_autoplaced)
+  (label "ADC2" (at 283.21 77.47 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 009facee-e2c8-4a5e-a1e1-e3656dd96dd1)
   )
@@ -5293,11 +5412,11 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 1c1147fd-670b-4e36-b704-cbee3d4598ec)
   )
-  (label "SDA" (at 264.16 105.41 0) (fields_autoplaced)
+  (label "SDA" (at 264.16 92.71 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2091a545-d21a-4352-bfea-347a5cadc2b4)
   )
-  (label "WR" (at 363.22 123.19 180) (fields_autoplaced)
+  (label "WR" (at 363.22 110.49 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 2bf00538-d639-4529-ba1f-23e7e7292b04)
   )
@@ -5305,19 +5424,19 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 2d08205e-cb43-4d9b-8ee2-995520855079)
   )
-  (label "GPIO9" (at 429.26 88.9 180) (fields_autoplaced)
+  (label "GPIO9" (at 429.26 76.2 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 2d41e3ee-c98e-4731-a673-218bb3aae76f)
   )
-  (label "U0RXD" (at 429.26 81.28 180) (fields_autoplaced)
+  (label "U0RXD" (at 429.26 68.58 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 2f2b03f8-e283-4fdb-a3a7-e9aefb3233ba)
   )
-  (label "U0RXD" (at 363.22 82.55 180) (fields_autoplaced)
+  (label "U0RXD" (at 363.22 69.85 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 3089794f-f616-458a-b2bf-e68ae5401e36)
   )
-  (label "S{slash}R" (at 363.22 120.65 180) (fields_autoplaced)
+  (label "S{slash}R" (at 363.22 107.95 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 3fe9fc67-2b14-49fc-a1d3-cf2c8b0471c3)
   )
@@ -5333,7 +5452,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5100d427-51b8-45fd-a7ae-3ac680d574eb)
   )
-  (label "GPIO8" (at 363.22 100.33 180) (fields_autoplaced)
+  (label "GPIO8" (at 363.22 87.63 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 59c8779c-aa2f-4d69-bbe6-ba997b8174b6)
   )
@@ -5341,19 +5460,19 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 5cd36c69-4913-4d4c-bae8-ca3fbd9bcc87)
   )
-  (label "GPIO15" (at 363.22 107.95 180) (fields_autoplaced)
+  (label "GPIO15" (at 363.22 95.25 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 5ed88bd6-7344-4782-b45d-5eda841592e1)
   )
-  (label "D+" (at 383.54 163.83 0) (fields_autoplaced)
+  (label "D+" (at 379.73 107.95 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5fc74587-f710-42a0-9e00-d1f0038d8c83)
   )
-  (label "GPIO18" (at 363.22 110.49 180) (fields_autoplaced)
+  (label "GPIO18" (at 363.22 97.79 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 64131029-4768-41d3-a23a-ed29092462db)
   )
-  (label "GPIO9" (at 363.22 102.87 180) (fields_autoplaced)
+  (label "GPIO9" (at 363.22 90.17 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 64f1ee2a-a18b-47e7-bf4c-fd92e39a3c3e)
   )
@@ -5361,11 +5480,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 650b0393-6b75-42f4-b5e2-f06cb8d63299)
   )
-  (label "+3V3" (at 401.32 83.82 0) (fields_autoplaced)
+  (label "+3V3" (at 401.32 71.12 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 67ea4ba9-bde9-45ea-9c1b-e612c4ef37c1)
   )
-  (label "GND" (at 401.32 96.52 0) (fields_autoplaced)
+  (label "GND" (at 401.32 83.82 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 74883d13-b84f-4ba8-8c39-b7c4843a6eda)
   )
@@ -5377,27 +5496,31 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 78be631c-f43b-4401-a8ec-26ae0c7c7fb9)
   )
-  (label "GPIO15" (at 429.26 91.44 180) (fields_autoplaced)
+  (label "GPIO8" (at 388.62 175.26 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 7c0ebe54-b1ba-4589-96c9-d1d7a0bbcefb)
+  )
+  (label "GPIO15" (at 429.26 78.74 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 7d4f9336-6ae7-46a7-956a-b0825bf29e11)
   )
-  (label "GPIO8" (at 401.32 88.9 0) (fields_autoplaced)
+  (label "GPIO8" (at 401.32 76.2 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 80b5b7da-474d-4f81-b89b-df702cd9f417)
   )
-  (label "CHIP_PU" (at 429.26 96.52 180) (fields_autoplaced)
+  (label "CHIP_PU" (at 429.26 83.82 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 8bef92bb-dc68-4355-86d4-34ab9ec61966)
   )
-  (label "GND" (at 429.26 83.82 180) (fields_autoplaced)
+  (label "GND" (at 429.26 71.12 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 8e476fda-8732-4932-9a81-92674d795a65)
   )
-  (label "GPIO19" (at 363.22 113.03 180) (fields_autoplaced)
+  (label "GPIO19" (at 363.22 100.33 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 8f8c2c21-2384-4500-a582-ac7bed8e0e1d)
   )
-  (label "+5V" (at 401.32 78.74 0) (fields_autoplaced)
+  (label "+5V" (at 401.32 66.04 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9028d6f2-9457-4ef4-8a9f-167df850a988)
   )
@@ -5425,7 +5548,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9c17f2ae-f0fd-4815-9ddb-cc4bfe22d73d)
   )
-  (label "RS1" (at 363.22 118.11 180) (fields_autoplaced)
+  (label "RS1" (at 363.22 105.41 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9c44e3ee-5791-4e96-93a7-89d9d95b5aa0)
   )
@@ -5433,31 +5556,31 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9c4a82cc-58f4-49b4-b675-65240829ff59)
   )
-  (label "D-" (at 383.54 161.29 0) (fields_autoplaced)
+  (label "D-" (at 379.73 105.41 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a55319d8-2f3f-4727-9b80-59e3c9e940bb)
   )
-  (label "ADC3" (at 283.21 92.71 0) (fields_autoplaced)
+  (label "ADC3" (at 283.21 80.01 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ab1af1ff-a2e0-46ba-b4c4-cd6f23f0cb23)
   )
-  (label "GPIO14" (at 363.22 105.41 180) (fields_autoplaced)
+  (label "GPIO14" (at 363.22 92.71 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid ab72d988-2973-4c69-921e-e73c345adf2c)
   )
-  (label "ADC1" (at 283.21 87.63 0) (fields_autoplaced)
+  (label "ADC1" (at 283.21 74.93 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ac02c219-7483-4433-a9fd-9c833a46e0a4)
   )
-  (label "GPIO9" (at 317.5 180.34 180) (fields_autoplaced)
+  (label "GPIO9" (at 300.99 173.99 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid b11a1273-2636-4dd3-bc54-56b6a5c950e3)
   )
-  (label "U0TXD" (at 363.22 80.01 180) (fields_autoplaced)
+  (label "U0TXD" (at 363.22 67.31 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid b38954db-bd32-4da7-8a99-79a8d2a94867)
   )
-  (label "GPIO5" (at 429.26 86.36 180) (fields_autoplaced)
+  (label "GPIO5" (at 429.26 73.66 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid b4c33ad6-7331-4188-92f2-4a348dfa2679)
   )
@@ -5465,15 +5588,15 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid b52ecb81-6349-49fb-91fe-17639df5fd01)
   )
-  (label "SCL" (at 264.16 107.95 0) (fields_autoplaced)
+  (label "SCL" (at 264.16 95.25 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid be8d26e2-ded3-4c39-92a1-777214bdfd83)
   )
-  (label "GPIO14" (at 401.32 91.44 0) (fields_autoplaced)
+  (label "GPIO14" (at 401.32 78.74 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bfeee08e-8e49-4381-bf4f-685edaf59db7)
   )
-  (label "CHIP_PU" (at 372.11 180.34 180) (fields_autoplaced)
+  (label "CHIP_PU" (at 355.6 173.99 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid c2d97b13-1964-4296-b758-bcfaefda0d3c)
   )
@@ -5481,7 +5604,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c7ceecdf-3457-4910-beab-e3f45ff1321f)
   )
-  (label "GPIO4" (at 401.32 86.36 0) (fields_autoplaced)
+  (label "GPIO4" (at 401.32 73.66 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ca885b02-38d7-4268-9be5-ed22a0c7f106)
   )
@@ -5489,15 +5612,15 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid caf6243b-8ec8-46f8-9f5f-0bd6d35747cf)
   )
-  (label "D+" (at 363.22 87.63 180) (fields_autoplaced)
+  (label "D+" (at 363.22 74.93 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid cd0c2b9b-b201-473a-a278-4fe2db8e1843)
   )
-  (label "U0TXD" (at 401.32 81.28 0) (fields_autoplaced)
+  (label "U0TXD" (at 401.32 68.58 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cd642ddb-b2c0-42c2-8773-b539fd003aef)
   )
-  (label "GPIO19" (at 429.26 93.98 180) (fields_autoplaced)
+  (label "GPIO19" (at 429.26 81.28 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d02bc81b-f611-4f80-b6ab-d3d45ef56570)
   )
@@ -5505,15 +5628,15 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d25b3568-55f8-4b27-a423-5ae967cbd0e8)
   )
-  (label "GPIO4" (at 283.21 100.33 0) (fields_autoplaced)
+  (label "GPIO4" (at 283.21 87.63 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d289c2c2-d7a9-4eaf-9a4e-0a24f80e6edf)
   )
-  (label "GPIO5" (at 283.21 102.87 0) (fields_autoplaced)
+  (label "GPIO5" (at 283.21 90.17 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d3b4f9b7-5117-42f3-90dd-e9e15f11fbdc)
   )
-  (label "GPIO18" (at 401.32 93.98 0) (fields_autoplaced)
+  (label "GPIO18" (at 401.32 81.28 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid daaa8bd0-5d07-4fca-b4b7-2067d7d4c951)
   )
@@ -5521,7 +5644,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid dac08ad9-8385-4cbf-8c3a-964aaeec7301)
   )
-  (label "ADC0" (at 283.21 85.09 0) (fields_autoplaced)
+  (label "ADC0" (at 283.21 72.39 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ddfc194e-2cf8-4269-9a09-fc8d8cf35f39)
   )
@@ -5533,11 +5656,11 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e42ad2b7-0a09-4847-859a-ba389192befe)
   )
-  (label "CHIP_PU" (at 269.24 80.01 0) (fields_autoplaced)
+  (label "CHIP_PU" (at 269.24 67.31 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e56a25df-a599-4a6f-9007-5d61e0175f1c)
   )
-  (label "GND" (at 429.26 78.74 180) (fields_autoplaced)
+  (label "GND" (at 429.26 66.04 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e5952815-0906-4b4e-b1ec-b338a77c918d)
   )
@@ -5557,11 +5680,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fa80793e-050e-4824-b10f-1241b7ad02b5)
   )
-  (label "D-" (at 363.22 90.17 180) (fields_autoplaced)
+  (label "D-" (at 363.22 77.47 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid fb50e059-f171-4419-8c10-eda7d42355aa)
   )
-  (label "RS0" (at 363.22 115.57 180) (fields_autoplaced)
+  (label "RS0" (at 363.22 102.87 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid fde23493-930d-4393-9c0e-1d1da57685e0)
   )
@@ -5570,24 +5693,24 @@
     (uuid ff75c29d-bc0a-4e85-b027-36e04c9724a1)
   )
 
-  (symbol (lib_id "power:GND") (at 391.16 177.8 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 387.35 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 002d22b3-eab2-4029-8f0e-0b2bf8c9bf26)
-    (property "Reference" "#PWR035" (at 391.16 184.15 0)
+    (property "Reference" "#PWR035" (at 387.35 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 391.16 182.88 0)
+    (property "Value" "GND" (at 387.35 127 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 391.16 177.8 0)
+    (property "Footprint" "" (at 387.35 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 391.16 177.8 0)
+    (property "Datasheet" "" (at 387.35 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 207c2c73-2097-44ba-8158-cb5ba476ce8b))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR035") (unit 1)
         )
@@ -5616,7 +5739,7 @@
     (pin "1" (uuid 6e0404e3-aa6d-469e-9b6d-26b70c72a352))
     (pin "2" (uuid 2fb9894b-30d9-4916-8c34-6969725f650d))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C4") (unit 1)
         )
@@ -5641,7 +5764,7 @@
     )
     (pin "1" (uuid 1c0c48c1-525c-4445-8614-5baa1d5c7c7b))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR030") (unit 1)
         )
@@ -5649,24 +5772,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 284.48 190.5 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 267.97 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 035cc53b-49c4-4119-bf42-f20e9054dc0b)
-    (property "Reference" "#PWR041" (at 284.48 196.85 0)
+    (property "Reference" "#PWR041" (at 267.97 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 284.48 195.58 0)
+    (property "Value" "GND" (at 267.97 189.23 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 284.48 190.5 0)
+    (property "Footprint" "" (at 267.97 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 284.48 190.5 0)
+    (property "Datasheet" "" (at 267.97 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1f44551d-e76e-4dd6-8744-b21eaaa5fdcc))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR041") (unit 1)
         )
@@ -5695,7 +5818,7 @@
     (pin "1" (uuid 6db2d6c9-2991-467f-8d49-7b5f64155b03))
     (pin "2" (uuid 11bd39b3-d5ec-490d-8925-eca96a321ae3))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R24") (unit 1)
         )
@@ -5724,7 +5847,7 @@
     (pin "1" (uuid fcf47786-4123-45d0-9f56-4646e60e6e5d))
     (pin "2" (uuid f68f6e13-2f98-43bd-8a2d-758868d5b27a))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R30") (unit 1)
         )
@@ -5749,7 +5872,7 @@
     )
     (pin "1" (uuid 31047f6d-f711-40da-ab16-489d0a6ecf9c))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR025") (unit 1)
         )
@@ -5790,7 +5913,7 @@
     (pin "1" (uuid 556ac790-dd49-482f-9978-27769321abb8))
     (pin "2" (uuid ad632688-89eb-4e82-bc5f-7708504abedb))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "L1") (unit 1)
         )
@@ -5833,7 +5956,7 @@
     (pin "3" (uuid 5f7254f1-3f7f-466a-a033-ac0bd699a883))
     (pin "4" (uuid 9f2694df-8f9b-40ac-a7b2-e4a114e1b7ab))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "IC1") (unit 1)
         )
@@ -5862,7 +5985,7 @@
     (pin "1" (uuid 36175423-a8fe-41e3-b641-a0c1dc76fb32))
     (pin "2" (uuid 3f84b2bd-9333-4767-98c6-0cd85dff804f))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R28") (unit 1)
         )
@@ -5979,7 +6102,7 @@
     (pin "8" (uuid c4d629dc-84c9-435c-a384-33b019eeb147))
     (pin "9" (uuid 87bfef08-a550-4658-99ac-af675f061aad))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "K1") (unit 1)
         )
@@ -6008,7 +6131,7 @@
     (pin "1" (uuid 03fe581a-add1-42ee-8f3f-38aec5cc0b42))
     (pin "2" (uuid f9eeaeda-5932-4e42-85b8-03cd0513bd8e))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R5") (unit 1)
         )
@@ -6037,7 +6160,7 @@
     (pin "1" (uuid 4570d49c-4a59-47f0-b1cf-397aa7252000))
     (pin "2" (uuid 4ad51a26-9208-499b-8796-a54db9cd78b6))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R2") (unit 1)
         )
@@ -6062,7 +6185,7 @@
     )
     (pin "1" (uuid 5fbe77c4-efaa-4ad9-b91c-849eb1f3a533))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR024") (unit 1)
         )
@@ -6070,24 +6193,24 @@
     )
   )
 
-  (symbol (lib_id "+5V_USB:+5V_USB") (at 396.24 158.75 90) (unit 1)
+  (symbol (lib_id "+5V_USB:+5V_USB") (at 392.43 102.87 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 14e33528-c297-40e1-a078-92e101202b97)
-    (property "Reference" "#PWR029" (at 400.05 158.75 0)
+    (property "Reference" "#PWR029" (at 396.24 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V_USB" (at 392.43 157.48 90)
+    (property "Value" "+5V_USB" (at 388.62 101.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 396.24 158.75 0)
+    (property "Footprint" "" (at 392.43 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 396.24 158.75 0)
+    (property "Datasheet" "" (at 392.43 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ec4a7e64-4678-4f3e-b4c2-d4a94c6ad852))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR029") (unit 1)
         )
@@ -6119,7 +6242,7 @@
     (pin "1" (uuid 786b8e37-1936-4e77-bb53-312f7d212d9b))
     (pin "2" (uuid c2323bdb-8195-48be-9deb-d9ddadb261e1))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C19") (unit 1)
         )
@@ -6144,7 +6267,7 @@
     )
     (pin "1" (uuid 836c0a3a-a484-4124-a499-8af46efb92c0))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR019") (unit 1)
         )
@@ -6173,7 +6296,7 @@
     (pin "1" (uuid 0ec279da-b2f4-48c3-a617-391d2c54d953))
     (pin "2" (uuid 28775c1c-b0ad-49bf-854a-3c41e7196205))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R17") (unit 1)
         )
@@ -6200,7 +6323,7 @@
     (pin "2" (uuid 87fe9fc7-de21-40d3-90b5-3d7dc628b326))
     (pin "3" (uuid 61022089-4414-4713-b0ce-a7ad9ea33964))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "D11") (unit 1)
         )
@@ -6208,24 +6331,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 336.55 190.5 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 320.04 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f88b092-62f0-434a-907d-4f3bc835f337)
-    (property "Reference" "#PWR042" (at 336.55 196.85 0)
+    (property "Reference" "#PWR042" (at 320.04 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 336.55 195.58 0)
+    (property "Value" "GND" (at 320.04 189.23 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 336.55 190.5 0)
+    (property "Footprint" "" (at 320.04 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 336.55 190.5 0)
+    (property "Datasheet" "" (at 320.04 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9910484b-b6b3-497d-821c-02b37b536c9e))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR042") (unit 1)
         )
@@ -6250,7 +6373,7 @@
     )
     (pin "1" (uuid 9c2b6236-5dbe-40ac-8670-5cfd3b8db7ac))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR053") (unit 1)
         )
@@ -6275,7 +6398,7 @@
     )
     (pin "1" (uuid abe74796-2040-465d-b403-080af2270b80))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#FLG09") (unit 1)
         )
@@ -6283,24 +6406,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 403.86 177.8 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 400.05 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 21ee549e-b46b-4733-89d6-26d356d6270c)
-    (property "Reference" "#PWR037" (at 403.86 184.15 0)
+    (property "Reference" "#PWR037" (at 400.05 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 403.86 182.88 0)
+    (property "Value" "GND" (at 400.05 127 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 403.86 177.8 0)
+    (property "Footprint" "" (at 400.05 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 403.86 177.8 0)
+    (property "Datasheet" "" (at 400.05 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f2bb90b7-e4e4-426c-a2fa-a9b970c4812a))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR037") (unit 1)
         )
@@ -6325,7 +6448,7 @@
     )
     (pin "1" (uuid 53830efb-084b-487e-8d72-3a050b537156))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#FLG02") (unit 1)
         )
@@ -6350,7 +6473,7 @@
     )
     (pin "1" (uuid 95543337-1361-4331-9bc0-1055d4bbf024))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#FLG011") (unit 1)
         )
@@ -6397,7 +6520,7 @@
     (pin "1" (uuid a8da94a1-8d91-4d90-8c0f-e86d040c4887))
     (pin "5" (uuid bd572705-3ed0-4a4d-9210-404257cf59d6))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "HM1") (unit 1)
         )
@@ -6514,9 +6637,40 @@
     (pin "8" (uuid 9ac64dd0-e262-4a4f-a8cf-4d56550d0956))
     (pin "9" (uuid c2d0490b-52f1-4bfb-bc6b-d209143f90ff))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "K4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "LED:WS2812B") (at 405.13 175.26 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 27788401-52b4-4643-acb0-50d5ccc58889)
+    (property "Reference" "D2" (at 416.56 171.6121 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "WS2812B" (at 416.56 174.1521 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 406.4 182.88 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 407.67 184.785 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Number" "485-4684" (at 405.13 175.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "3" (uuid 1ea5de79-88b1-4e0f-9508-527fabb6cec9))
+    (pin "4" (uuid 86146c68-9748-452c-b70a-ad915039238c))
+    (pin "1" (uuid 677d22c3-3e18-4af0-b8c9-da7e5383fbd4))
+    (pin "2" (uuid fe695835-d377-4acd-8450-089762207d6f))
+    (instances
+      (project "ESP32C6RelayBoard"
+        (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -6543,7 +6697,7 @@
     (pin "1" (uuid e6411705-9a8c-488b-b8d9-970b69f2541f))
     (pin "2" (uuid 496adc86-ade6-4a23-9d4c-0b7154d072ad))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C29") (unit 1)
         )
@@ -6572,7 +6726,7 @@
     (pin "1" (uuid 43c65712-cc6c-4af1-85c9-031fd617dd65))
     (pin "2" (uuid 43727318-97a6-47ae-a787-2d01bc86db14))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R11") (unit 1)
         )
@@ -6601,7 +6755,7 @@
     (pin "1" (uuid 7b66b2a2-d329-4de7-8262-5b010e4d30a5))
     (pin "2" (uuid f48426bb-c5f1-41fc-a6ac-3fcb5b30f0d2))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R21") (unit 1)
         )
@@ -6626,7 +6780,7 @@
     )
     (pin "1" (uuid b647b1aa-0581-4c29-9d10-e05398d93664))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR055") (unit 1)
         )
@@ -6651,7 +6805,7 @@
     )
     (pin "1" (uuid 23af7ded-b697-445a-85da-8f49955e3838))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR077") (unit 1)
         )
@@ -6659,24 +6813,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 317.5 142.24 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 317.5 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 30b741f1-d79b-4110-a8bf-e0083e19f62e)
-    (property "Reference" "#PWR026" (at 317.5 148.59 0)
+    (property "Reference" "#PWR026" (at 317.5 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 317.5 146.05 0)
+    (property "Value" "GND" (at 317.5 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 317.5 142.24 0)
+    (property "Footprint" "" (at 317.5 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 317.5 142.24 0)
+    (property "Datasheet" "" (at 317.5 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3ad98063-fb0e-4ebe-a519-a78071d9819a))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR026") (unit 1)
         )
@@ -6703,7 +6857,7 @@
     (pin "2" (uuid b1f3823f-b82e-47c5-b7a6-42a5706e3af8))
     (pin "3" (uuid 615247ea-9040-4243-91c9-da1e81697884))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "J10") (unit 1)
         )
@@ -6711,24 +6865,24 @@
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 317.5 63.5 0) (unit 1)
+  (symbol (lib_id "power:+3V3") (at 317.5 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33cd65fc-3cc5-4b9e-be67-7d94ea003a4b)
-    (property "Reference" "#PWR02" (at 317.5 67.31 0)
+    (property "Reference" "#PWR02" (at 317.5 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (at 317.5 58.42 0)
+    (property "Value" "+3V3" (at 317.5 45.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 317.5 63.5 0)
+    (property "Footprint" "" (at 317.5 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 317.5 63.5 0)
+    (property "Datasheet" "" (at 317.5 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b0696db4-0b25-4978-a13f-f4713a6704ca))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR02") (unit 1)
         )
@@ -6757,7 +6911,7 @@
     (pin "2" (uuid 0a0ed176-466e-4973-a99e-ced3cc5fc2c4))
     (pin "1" (uuid 4b99e883-87bc-4070-ba2b-2ba03d05bef0))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "D13") (unit 1)
         )
@@ -6765,28 +6919,28 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 309.88 66.04 270) (mirror x) (unit 1)
+  (symbol (lib_id "Device:C") (at 309.88 53.34 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 39170975-0c36-4deb-9aab-abd7399ff010)
-    (property "Reference" "C1" (at 312.42 64.77 90)
+    (property "Reference" "C1" (at 312.42 52.07 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF/10V/10%" (at 308.61 64.77 90)
+    (property "Value" "100nF/10V/10%" (at 308.61 52.07 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 306.07 65.0748 0)
+    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 306.07 52.3748 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 309.88 66.04 0)
+    (property "Datasheet" "~" (at 309.88 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Number" "GRM033R61A104KE15D" (at 309.88 66.04 0)
+    (property "Number" "GRM033R61A104KE15D" (at 309.88 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 52416515-7303-4974-87de-c39f7cb9d7ea))
     (pin "2" (uuid 699ff352-ab02-45c2-a9f9-8e5e389a24e6))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C1") (unit 1)
         )
@@ -6815,7 +6969,7 @@
     (pin "1" (uuid 3a244757-4a95-451f-9f33-90ece7bf8bf8))
     (pin "2" (uuid 12fcfb05-a996-486d-9a9a-3d71a0fd7437))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R12") (unit 1)
         )
@@ -6847,9 +7001,34 @@
     (pin "7" (uuid 9be6f0ad-7949-42ba-9130-a74f1f333193))
     (pin "8" (uuid 54e7800b-7882-4bad-b593-68d2414e83ae))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "U12") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3V3") (at 405.13 167.64 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3f662cf8-a86e-4756-885a-db61c301f303)
+    (property "Reference" "#PWR010" (at 405.13 171.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 405.13 162.56 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 405.13 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 405.13 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid eaee9343-1c70-4e23-b7ec-5b7ba7cf306c))
+    (instances
+      (project "ESP32C6RelayBoard"
+        (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -6876,7 +7055,7 @@
     (pin "2" (uuid 53ec3155-1cd9-419c-b234-bac1f26ad5d2))
     (pin "1" (uuid 941e5589-7829-4476-9cc8-205ca8cb8375))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R15") (unit 1)
         )
@@ -6903,7 +7082,7 @@
     (pin "2" (uuid 264a21f2-43cd-4d6a-ad95-6f46508ca007))
     (pin "3" (uuid 00d03115-3cdc-4d7a-af13-0f4e3c12cc0b))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "J9") (unit 1)
         )
@@ -6928,7 +7107,7 @@
     )
     (pin "1" (uuid 440d302e-8742-4cd9-8bec-e130d910b731))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR070") (unit 1)
         )
@@ -6955,7 +7134,7 @@
     (pin "2" (uuid daad06fc-1ff5-4037-9de1-497a9da91e07))
     (pin "3" (uuid 03065874-42fd-4336-9175-e0054ecc5a86))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "D8") (unit 1)
         )
@@ -6984,7 +7163,7 @@
     (pin "1" (uuid eb8cd639-edc8-4f8e-b546-fcb5d02a8503))
     (pin "2" (uuid 2ec6e22d-b46f-4466-b470-d55c05679fc7))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C5") (unit 1)
         )
@@ -7016,7 +7195,7 @@
     (pin "1" (uuid 9ed772b2-1845-4ead-a07b-d4a61f8f60fb))
     (pin "2" (uuid ccfaf755-4831-43af-a454-42238b29e923))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C37") (unit 1)
         )
@@ -7041,7 +7220,7 @@
     )
     (pin "1" (uuid 62d898a2-db6c-4714-b021-5a683161c1fe))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR017") (unit 1)
         )
@@ -7066,7 +7245,7 @@
     )
     (pin "1" (uuid f29253ec-e0a4-42b6-996a-ed936b66c179))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR06") (unit 1)
         )
@@ -7101,7 +7280,7 @@
     (pin "1" (uuid 1814d572-2690-427f-ac80-df4630b61830))
     (pin "2" (uuid 1ad046c7-5ea6-45f5-8f1f-4bd5b94d274d))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "D6") (unit 1)
         )
@@ -7109,28 +7288,28 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 297.18 189.23 90) (unit 1)
+  (symbol (lib_id "Device:C") (at 280.67 182.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4991f278-2a69-43c5-a074-dcfbe77b4406)
-    (property "Reference" "C15" (at 295.91 187.96 90)
+    (property "Reference" "C15" (at 279.4 181.61 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (at 288.29 193.04 90)
+    (property "Value" "100nF" (at 271.78 186.69 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 300.99 188.2648 0)
+    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 284.48 181.9148 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 297.18 189.23 0)
+    (property "Datasheet" "~" (at 280.67 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Number" "GRM033R61A104KE15D" (at 297.18 189.23 0)
+    (property "Number" "GRM033R61A104KE15D" (at 280.67 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid aa918479-0ddd-415f-b490-8f6c6713e506))
     (pin "2" (uuid fdebd799-83de-41f6-955c-1e3c8b217c09))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C15") (unit 1)
         )
@@ -7155,7 +7334,7 @@
     )
     (pin "1" (uuid e4d285b3-ed1a-4e52-a9fa-b910e87284d6))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR079") (unit 1)
         )
@@ -7182,7 +7361,7 @@
     (pin "2" (uuid c7b69dd7-c615-4946-833d-37b48f22baeb))
     (pin "3" (uuid d48cdd44-d120-415c-8a78-88df12b626cc))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "J11") (unit 1)
         )
@@ -7207,7 +7386,7 @@
     )
     (pin "1" (uuid b5cb33f0-bcb3-48a8-a744-1a705bf06bc9))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR020") (unit 1)
         )
@@ -7215,24 +7394,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 410.21 177.8 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 406.4 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4be0d048-10df-410b-b8d8-4f5fd2f22a99)
-    (property "Reference" "#PWR038" (at 410.21 184.15 0)
+    (property "Reference" "#PWR038" (at 406.4 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 410.21 182.88 0)
+    (property "Value" "GND" (at 406.4 127 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 410.21 177.8 0)
+    (property "Footprint" "" (at 406.4 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 410.21 177.8 0)
+    (property "Datasheet" "" (at 406.4 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b9045799-f0ba-4485-94e9-32649a7d7e0e))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR038") (unit 1)
         )
@@ -7261,7 +7440,7 @@
     (pin "1" (uuid 56bfc102-6124-4ccf-9f97-1e9c33de1832))
     (pin "2" (uuid 1392d983-5902-42fa-985d-29414ebdecfa))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R23") (unit 1)
         )
@@ -7286,7 +7465,7 @@
     )
     (pin "1" (uuid 1abe2d68-ed70-4759-87a5-1a0ddd485b93))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR023") (unit 1)
         )
@@ -7311,7 +7490,7 @@
     )
     (pin "1" (uuid 11999dc5-8a55-424e-9a72-97ffd63b67dd))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR08") (unit 1)
         )
@@ -7336,7 +7515,7 @@
     )
     (pin "1" (uuid 145ec5c5-f8a5-4dd7-8dc0-14f54a5a5ad9))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR01") (unit 1)
         )
@@ -7361,7 +7540,7 @@
     )
     (pin "1" (uuid 6637e909-9129-45b5-ba26-14ef9ee4ed01))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#FLG07") (unit 1)
         )
@@ -7369,24 +7548,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 397.51 177.8 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 393.7 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 56fa7994-608b-43a7-b8c1-327846f6cae3)
-    (property "Reference" "#PWR036" (at 397.51 184.15 0)
+    (property "Reference" "#PWR036" (at 393.7 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 397.51 182.88 0)
+    (property "Value" "GND" (at 393.7 127 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 397.51 177.8 0)
+    (property "Footprint" "" (at 393.7 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 397.51 177.8 0)
+    (property "Datasheet" "" (at 393.7 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 237fb854-f5a3-4aba-83a2-1b5ada02c260))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR036") (unit 1)
         )
@@ -7411,7 +7590,7 @@
     )
     (pin "1" (uuid a9ea0148-29e2-4631-84f9-b8a0a0583806))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR062") (unit 1)
         )
@@ -7440,7 +7619,7 @@
     (pin "1" (uuid f9deb6e9-db1b-47fb-971f-99dc9532baa6))
     (pin "2" (uuid bad6b4a8-8c0d-4812-8657-cb25e86e115e))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R6") (unit 1)
         )
@@ -7465,7 +7644,7 @@
     )
     (pin "1" (uuid e45c7212-22b1-40d4-b5c2-db7041958a67))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR052") (unit 1)
         )
@@ -7494,7 +7673,7 @@
     (pin "1" (uuid a801d2fc-fb8b-47d8-a052-bc7e99b881bf))
     (pin "2" (uuid 972e954a-ee78-4e55-b5f3-e54048460b17))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C12") (unit 1)
         )
@@ -7611,7 +7790,7 @@
     (pin "8" (uuid 16095894-dbaa-4941-8107-d16dd7ca1371))
     (pin "9" (uuid 3159d959-04ea-4b3e-9434-edafc9e45dd4))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "K2") (unit 1)
         )
@@ -7636,7 +7815,7 @@
     )
     (pin "1" (uuid 50aa4bf6-0985-423d-bc1b-cd6b43f7ef56))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR033") (unit 1)
         )
@@ -7661,7 +7840,7 @@
     )
     (pin "1" (uuid 015b42da-4ab7-48f8-afad-d4841aa36660))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR072") (unit 1)
         )
@@ -7690,7 +7869,7 @@
     (pin "1" (uuid 329b835d-f62f-4f8c-8f9d-6490519eeb63))
     (pin "2" (uuid 7baf351b-7ce0-4ed9-840e-a5aa857a7a2a))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C18") (unit 1)
         )
@@ -7722,7 +7901,7 @@
     (pin "1" (uuid fe14cce8-f435-4dcb-b7d8-39d71acf92bd))
     (pin "2" (uuid 5944f23c-8be8-4811-8104-561589be0b8b))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C39") (unit 1)
         )
@@ -7747,7 +7926,7 @@
     )
     (pin "1" (uuid 9cef861e-0be1-446e-aa0d-63ba3e31fb4b))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#FLG08") (unit 1)
         )
@@ -7776,7 +7955,7 @@
     (pin "1" (uuid cef6f3c7-0005-48c8-b7bc-74661eccd056))
     (pin "2" (uuid 389879e7-b743-428f-b754-19fc2495d123))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C17") (unit 1)
         )
@@ -7784,28 +7963,28 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 267.97 83.82 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 267.97 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 69a91974-ed21-401d-bb40-744db209f7c7)
-    (property "Reference" "C3" (at 267.97 81.28 0)
+    (property "Reference" "C3" (at 267.97 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF/10V/10%" (at 264.16 69.85 90)
+    (property "Value" "100nF/10V/10%" (at 264.16 57.15 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 268.9352 87.63 0)
+    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 268.9352 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 267.97 83.82 0)
+    (property "Datasheet" "~" (at 267.97 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Number" "GRM033R61A104KE15D" (at 267.97 83.82 0)
+    (property "Number" "GRM033R61A104KE15D" (at 267.97 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 64b31d61-95ea-403c-b37a-7778791e163e))
     (pin "2" (uuid 0375dada-8ad3-49bb-a00d-832c310c3845))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C3") (unit 1)
         )
@@ -7830,7 +8009,7 @@
     )
     (pin "1" (uuid 8395a47f-ff6b-40dc-b41a-ad2a6d130a30))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR07") (unit 1)
         )
@@ -7859,7 +8038,7 @@
     (pin "1" (uuid 3e0a9960-afe3-4dfa-b035-58f29e7b430b))
     (pin "2" (uuid 43aea136-6c30-4fbb-adaf-064281548338))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R22") (unit 1)
         )
@@ -7867,40 +8046,40 @@
     )
   )
 
-  (symbol (lib_id "ESD401:ESD401DPYR") (at 403.86 172.72 270) (unit 1)
+  (symbol (lib_id "ESD401:ESD401DPYR") (at 400.05 116.84 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6ae76e54-90bb-4c2b-b5b9-08d82ac0a069)
-    (property "Reference" "U7" (at 401.32 166.37 90)
+    (property "Reference" "U7" (at 397.51 110.49 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "ESD401DPYR" (at 401.32 167.64 0)
+    (property "Value" "ESD401DPYR" (at 397.51 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "ESD401DPYR" (at 308.94 194.31 0)
+    (property "Footprint" "ESD401DPYR" (at 305.13 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/esd401.pdf" (at 208.94 194.31 0)
+    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/esd401.pdf" (at 205.13 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Height" "0.5" (at 8.94 194.31 0)
+    (property "Height" "0.5" (at 5.13 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Mouser Part Number" "595-ESD401DPYR" (at -91.06 194.31 0)
+    (property "Mouser Part Number" "595-ESD401DPYR" (at -94.87 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESD401DPYR?qs=BZBei1rCqCCvWkwMToOW3Q%3D%3D" (at -191.06 194.31 0)
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESD401DPYR?qs=BZBei1rCqCCvWkwMToOW3Q%3D%3D" (at -194.87 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Manufacturer_Name" "Texas Instruments" (at -291.06 194.31 0)
+    (property "Manufacturer_Name" "Texas Instruments" (at -294.87 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Manufacturer_Part_Number" "ESD401DPYR" (at -391.06 194.31 0)
+    (property "Manufacturer_Part_Number" "ESD401DPYR" (at -394.87 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (pin "2" (uuid 06e6200f-54e7-4650-a4cf-62cc9b3ffd28))
     (pin "1" (uuid 582975b8-4416-4250-a6f6-c9bf784c4cbe))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "U7") (unit 1)
         )
@@ -7908,28 +8087,28 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 274.32 100.33 0) (unit 1)
+  (symbol (lib_id "Device:R") (at 274.32 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6bf32d92-0d3b-4ecd-8cfd-ccdd4eee9578)
-    (property "Reference" "R10" (at 275.59 97.79 0)
+    (property "Reference" "R10" (at 275.59 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "3k3" (at 275.59 101.6 0)
+    (property "Value" "3k3" (at 275.59 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 272.542 100.33 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 272.542 87.63 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 274.32 100.33 0)
+    (property "Datasheet" "~" (at 274.32 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "NUmber" "CRG0603F3K3" (at 274.32 100.33 0)
+    (property "NUmber" "CRG0603F3K3" (at 274.32 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 938bc01f-5e0e-4503-8740-b62c22f35c4f))
     (pin "2" (uuid 102b624c-9acd-45fb-978f-b1bc6fe0e005))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R10") (unit 1)
         )
@@ -7958,7 +8137,7 @@
     (pin "1" (uuid 1cf9ff99-52e5-4a63-9f71-8e8f0ff9c3e7))
     (pin "2" (uuid 5a1bcdf0-75be-4038-b99e-a5615d737ce3))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C23") (unit 1)
         )
@@ -7983,7 +8162,7 @@
     )
     (pin "1" (uuid 44d4a9c4-95ac-46b0-97f8-d4951c829110))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#FLG013") (unit 1)
         )
@@ -8008,7 +8187,7 @@
     )
     (pin "1" (uuid ae108e22-ff93-43bf-9876-4d5d03c98702))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR069") (unit 1)
         )
@@ -8048,7 +8227,7 @@
     (pin "8" (uuid a275a102-ce21-4f4e-be6e-f1e0487d9076))
     (pin "9" (uuid f02e07c2-0272-49aa-bb4d-5970fd4a3fc0))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "U11") (unit 1)
         )
@@ -8077,7 +8256,7 @@
     (pin "1" (uuid f00f4b55-b527-4990-9c24-fbde53c74e8f))
     (pin "2" (uuid 00006c40-419e-4249-8c73-8e0ccc1b595d))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R16") (unit 1)
         )
@@ -8102,7 +8281,7 @@
     )
     (pin "1" (uuid ef606ae4-cd02-41c5-a91b-0ee85ed733fc))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR011") (unit 1)
         )
@@ -8127,7 +8306,7 @@
     )
     (pin "1" (uuid 9d4d3583-bbfb-4d7a-aa3d-d335d53a5049))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR068") (unit 1)
         )
@@ -8135,24 +8314,24 @@
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 356.87 95.25 270) (unit 1)
+  (symbol (lib_id "power:+3V3") (at 356.87 82.55 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 77ba5b7e-14a0-482c-bfd4-b4fb026c3f08)
-    (property "Reference" "#PWR012" (at 353.06 95.25 0)
+    (property "Reference" "#PWR012" (at 353.06 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (at 360.045 95.25 90)
+    (property "Value" "+3V3" (at 360.045 82.55 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 356.87 95.25 0)
+    (property "Footprint" "" (at 356.87 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 356.87 95.25 0)
+    (property "Datasheet" "" (at 356.87 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b2570b40-b119-492f-aac4-79d7c8456544))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR012") (unit 1)
         )
@@ -8177,7 +8356,7 @@
     )
     (pin "1" (uuid 3a0581ab-c6c0-457d-9f89-c911251bd358))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR032") (unit 1)
         )
@@ -8202,7 +8381,7 @@
     )
     (pin "1" (uuid 0a4a876a-5fae-4669-9ec2-43107c85399f))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR022") (unit 1)
         )
@@ -8227,7 +8406,7 @@
     )
     (pin "1" (uuid 4dfd6483-c9a8-44a7-9425-91c0b650a8f9))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR04") (unit 1)
         )
@@ -8252,7 +8431,7 @@
     )
     (pin "1" (uuid b454f0c5-e505-45a5-b524-4cd932fa7a9f))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR048") (unit 1)
         )
@@ -8277,7 +8456,7 @@
     )
     (pin "1" (uuid f737f7bb-66da-4c20-8615-6c11a122d94e))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR046") (unit 1)
         )
@@ -8306,7 +8485,7 @@
     (pin "1" (uuid 4b75aea3-628f-4f61-8125-ebe757b02218))
     (pin "2" (uuid 83403629-b9d6-42b1-8bc4-1ebbb7bce8c8))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C6") (unit 1)
         )
@@ -8314,28 +8493,28 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 351.79 95.25 90) (unit 1)
+  (symbol (lib_id "Device:R") (at 351.79 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 80806fa8-1c7f-433e-9291-3c7e49cef37f)
-    (property "Reference" "R8" (at 350.52 97.79 90)
+    (property "Reference" "R8" (at 350.52 85.09 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k/1%" (at 354.33 92.71 90)
+    (property "Value" "10k/1%" (at 354.33 80.01 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 351.79 97.028 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 351.79 84.328 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 351.79 95.25 0)
+    (property "Datasheet" "~" (at 351.79 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Number" "ERJ-3EKF1002V" (at 351.79 95.25 90)
+    (property "Number" "ERJ-3EKF1002V" (at 351.79 82.55 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1aeaff40-9ae0-4591-b3c4-7efe037e9cb2))
     (pin "2" (uuid 55a1216b-520a-4c5b-90a8-0651c09e6824))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R8") (unit 1)
         )
@@ -8364,7 +8543,7 @@
     (pin "1" (uuid 784f1f1e-b6c6-44f9-b59e-15571421e4e6))
     (pin "2" (uuid 0850a455-2740-41ea-9962-e51cca8d1591))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R19") (unit 1)
         )
@@ -8389,7 +8568,7 @@
     )
     (pin "1" (uuid f7accdda-1acd-403b-9e5c-2be6feead210))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR066") (unit 1)
         )
@@ -8414,7 +8593,7 @@
     )
     (pin "1" (uuid 5210845f-1409-4645-8194-c75a23a9ae7a))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR051") (unit 1)
         )
@@ -8440,7 +8619,7 @@
     (pin "1" (uuid 8de24bf3-c939-45ef-800d-dd6ed69d3ede))
     (pin "2" (uuid d9341c69-9ef1-4d5a-acd0-da71b4f80bd1))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "J6") (unit 1)
         )
@@ -8469,7 +8648,7 @@
     (pin "1" (uuid e0e6fe6b-3519-4620-88e3-a2b1a2d07a1e))
     (pin "2" (uuid 4333dd6f-dbac-4349-88d2-e9c4e80f9f94))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C10") (unit 1)
         )
@@ -8498,7 +8677,7 @@
     (pin "1" (uuid 65a46cd0-5d56-450e-96f6-714c5ee65612))
     (pin "2" (uuid 3086f862-44cf-454a-8e02-5d359ca81f25))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R25") (unit 1)
         )
@@ -8523,7 +8702,7 @@
     )
     (pin "1" (uuid c9388d5a-2452-497e-928c-84ec20db0305))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR028") (unit 1)
         )
@@ -8531,28 +8710,28 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 350.52 189.23 90) (unit 1)
+  (symbol (lib_id "Device:C") (at 334.01 182.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8988170d-cf46-48a8-a206-b53c77cd8ad4)
-    (property "Reference" "C16" (at 346.71 187.96 90)
+    (property "Reference" "C16" (at 330.2 181.61 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (at 342.9 194.31 90)
+    (property "Value" "100nF" (at 326.39 187.96 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 354.33 188.2648 0)
+    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 337.82 181.9148 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 350.52 189.23 0)
+    (property "Datasheet" "~" (at 334.01 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Number" "GRM033R61A104KE15D" (at 350.52 189.23 0)
+    (property "Number" "GRM033R61A104KE15D" (at 334.01 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b103d5b9-1259-4313-8189-098cf856c4fc))
     (pin "2" (uuid c2497abf-f7eb-4344-a3bd-bb39faea7f1b))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C16") (unit 1)
         )
@@ -8587,7 +8766,7 @@
     (pin "1" (uuid 38dc5352-9e3a-4b40-b300-73fe278d4ef5))
     (pin "2" (uuid 3b6bd45d-4697-48f3-88d7-a17310fa8b2f))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "D9") (unit 1)
         )
@@ -8612,7 +8791,7 @@
     )
     (pin "1" (uuid 6945983b-34f7-42bf-abbe-de20f21c2c9f))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR016") (unit 1)
         )
@@ -8620,24 +8799,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 267.97 87.63 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 267.97 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8a8683d6-f036-48f9-abe3-ad91091b286c)
-    (property "Reference" "#PWR09" (at 267.97 93.98 0)
+    (property "Reference" "#PWR09" (at 267.97 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 264.16 90.17 0)
+    (property "Value" "GND" (at 264.16 77.47 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 267.97 87.63 0)
+    (property "Footprint" "" (at 267.97 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 267.97 87.63 0)
+    (property "Datasheet" "" (at 267.97 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 35a27ed4-7c5c-4bdd-8647-34ddc6ff2751))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR09") (unit 1)
         )
@@ -8666,7 +8845,7 @@
     (pin "1" (uuid a7a43ba8-0c39-4210-93b6-d7fecb6d7a7c))
     (pin "2" (uuid fb915791-f84d-43d3-b0a3-836f21c74631))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C8") (unit 1)
         )
@@ -8674,19 +8853,19 @@
     )
   )
 
-  (symbol (lib_id "Wuerth_434133025816:434133025816") (at 331.47 170.18 0) (unit 1)
+  (symbol (lib_id "Wuerth_434133025816:434133025816") (at 314.96 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e3ac93e-2a12-4f78-8272-5d3c953d6023)
-    (property "Reference" "U4" (at 349.25 164.465 0)
+    (property "Reference" "U4" (at 332.74 158.115 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "434133025816" (at 340.995 167.005 0)
+    (property "Value" "434133025816" (at 324.485 160.655 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "SMD_025816_WRE" (at 336.55 177.165 0)
+    (property "Footprint" "SMD_025816_WRE" (at 320.04 170.815 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "434133025816" (at 335.915 173.99 0)
+    (property "Datasheet" "434133025816" (at 319.405 167.64 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (pin "3" (uuid 63ffb103-1117-4e08-9ac0-9324e4a73e19))
@@ -8694,7 +8873,7 @@
     (pin "2" (uuid 32fb959e-8f27-445c-a0db-362ad6cfeedc))
     (pin "1" (uuid a3bf4071-29ce-41b3-a048-bff0e8257a4a))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "U4") (unit 1)
         )
@@ -8723,7 +8902,7 @@
     (pin "1" (uuid 3d1d88b4-339c-4c97-ae57-8924a45c7dbe))
     (pin "2" (uuid 29bdbf21-38d9-4d0f-8305-fe86ee3a2a5a))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C14") (unit 1)
         )
@@ -8755,7 +8934,7 @@
     (pin "1" (uuid a7cd5b01-7aa1-4789-b500-65f503682836))
     (pin "2" (uuid b1f15d34-dac7-492c-9cdc-fe76fbe4e7c6))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C31") (unit 1)
         )
@@ -8784,7 +8963,7 @@
     (pin "1" (uuid 9f8882ab-75a4-417e-9ccf-ddb33868b593))
     (pin "2" (uuid 9b1870d5-215e-45cc-8ac6-c9c40595e14e))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R3") (unit 1)
         )
@@ -8813,7 +8992,7 @@
     (pin "1" (uuid 90b55882-061e-4348-b9dd-91fcc86dcbd9))
     (pin "2" (uuid d326a278-a5c4-4a4d-b09d-b162f04f0b24))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R26") (unit 1)
         )
@@ -8838,7 +9017,7 @@
     )
     (pin "1" (uuid ae0a7de9-9e02-479f-8c2a-bac5dff6181c))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR044") (unit 1)
         )
@@ -8863,7 +9042,7 @@
     )
     (pin "1" (uuid 786537a0-b7f3-4a91-8924-dc9c0534c0dd))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR064") (unit 1)
         )
@@ -8888,7 +9067,7 @@
     )
     (pin "1" (uuid cc734e40-cd94-46fe-94d3-e05f63019d57))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR031") (unit 1)
         )
@@ -8920,7 +9099,7 @@
     (pin "1" (uuid 11f86d49-15d6-4bee-8dbd-c03c73b93a67))
     (pin "2" (uuid 1a52b670-b5d8-4628-bb4a-0c3a5369431a))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C22") (unit 1)
         )
@@ -8945,7 +9124,7 @@
     )
     (pin "1" (uuid 454164f6-9702-48b9-9048-73af28122107))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR045") (unit 1)
         )
@@ -8953,24 +9132,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 303.53 67.31 0) (mirror y) (unit 1)
+  (symbol (lib_id "power:GND") (at 303.53 54.61 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9bd84862-3358-45c7-9022-48cae440c100)
-    (property "Reference" "#PWR05" (at 303.53 73.66 0)
+    (property "Reference" "#PWR05" (at 303.53 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 303.53 71.12 0)
+    (property "Value" "GND" (at 303.53 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 303.53 67.31 0)
+    (property "Footprint" "" (at 303.53 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 303.53 67.31 0)
+    (property "Datasheet" "" (at 303.53 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 81841a4f-18fa-47ac-9d73-988633f149d3))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR05") (unit 1)
         )
@@ -8995,7 +9174,7 @@
     )
     (pin "1" (uuid bd9d8b5f-16de-47ae-ae59-af9395f7a69f))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR040") (unit 1)
         )
@@ -9020,7 +9199,7 @@
     )
     (pin "1" (uuid c9b08214-11fc-4f38-a7de-21396a3ed04d))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR054") (unit 1)
         )
@@ -9045,7 +9224,7 @@
     )
     (pin "1" (uuid 0e2b8b2a-7e86-445c-9d42-f4f479caba48))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#FLG01") (unit 1)
         )
@@ -9074,7 +9253,7 @@
     (pin "1" (uuid a45473c2-a6d9-4794-af9e-c4663a7d27a0))
     (pin "2" (uuid 16aafd53-fafa-4241-bab4-58c3e4dcc42c))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R27") (unit 1)
         )
@@ -9099,7 +9278,7 @@
     )
     (pin "1" (uuid 92eb1322-364d-44f1-8424-43ac0be3ebef))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR075") (unit 1)
         )
@@ -9128,7 +9307,7 @@
     (pin "2" (uuid a7e36f37-7950-47a3-90f7-1160f35029b8))
     (pin "1" (uuid 1377b38b-62f9-412e-b08c-2bc121124405))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "D3") (unit 1)
         )
@@ -9153,7 +9332,7 @@
     )
     (pin "1" (uuid 76ee285e-7efa-42ba-ae34-51da9c7c77c9))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR082") (unit 1)
         )
@@ -9178,7 +9357,7 @@
     )
     (pin "1" (uuid d40d8b42-aa8b-486e-85b2-dc9e2f904c2d))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR065") (unit 1)
         )
@@ -9207,7 +9386,7 @@
     (pin "1" (uuid 57a0d35b-d034-4985-a109-876877165bcb))
     (pin "2" (uuid c779661a-3843-4474-98f6-4d7abe26d026))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C11") (unit 1)
         )
@@ -9239,7 +9418,7 @@
     (pin "1" (uuid dde59a4c-91fa-46a6-b952-f9170bb00a06))
     (pin "2" (uuid 83d2883f-7790-42a0-8485-68b33818089b))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C32") (unit 1)
         )
@@ -9268,7 +9447,7 @@
     (pin "2" (uuid 9217131a-829d-4925-a91e-b89c3ca5be42))
     (pin "1" (uuid dbd2d468-baf8-4cbb-a3a9-f8724a980c1d))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R7") (unit 1)
         )
@@ -9300,7 +9479,7 @@
     (pin "7" (uuid 9eee18c5-980a-4074-9b74-a91cf9aed529))
     (pin "8" (uuid 788769d4-4b83-4846-a063-2eab1d514e65))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "U10") (unit 1)
         )
@@ -9327,7 +9506,7 @@
     (pin "2" (uuid 8018fe2f-2c77-461e-b38d-8d61b654d6d6))
     (pin "3" (uuid 4e05f30c-89b0-4fe4-8df5-3ceefad8b3aa))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "J12") (unit 1)
         )
@@ -9352,7 +9531,7 @@
     )
     (pin "1" (uuid f3930491-60a2-49f0-8ded-56a1c461b32a))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR059") (unit 1)
         )
@@ -9381,7 +9560,7 @@
     (pin "1" (uuid 35991713-9d35-417f-afca-c0eee7719976))
     (pin "2" (uuid b6c09968-be29-4007-9004-a913da0f5e71))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R13") (unit 1)
         )
@@ -9406,7 +9585,7 @@
     )
     (pin "1" (uuid b23f2a42-d723-4aa3-b210-0414eb10d656))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR076") (unit 1)
         )
@@ -9438,7 +9617,7 @@
     (pin "1" (uuid b3ef5fe2-96ed-431f-b26a-87e18bf3d20c))
     (pin "2" (uuid 78d38b33-5290-4ed9-b074-be04b2c3ac5b))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C30") (unit 1)
         )
@@ -9479,7 +9658,7 @@
     (pin "1" (uuid 683311f0-f1f5-41db-8fba-5d874981d283))
     (pin "2" (uuid 298d713a-a3c4-4241-b521-2178536ad1b7))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "D1") (unit 1)
         )
@@ -9523,7 +9702,7 @@
     (pin "7" (uuid 37792a9e-0fe7-4c61-ba4a-a528b140fbcc))
     (pin "8" (uuid 63a8c7fc-1f46-4c69-be51-79e1f8d32e13))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "U9") (unit 1)
         )
@@ -9553,7 +9732,7 @@
     (pin "5" (uuid 5fcefbb3-3e59-47b2-9b7a-d875acab8ca7))
     (pin "6" (uuid 95c19b1a-d189-492b-bb14-a1f9022abf67))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "U1") (unit 1)
         )
@@ -9578,7 +9757,7 @@
     )
     (pin "1" (uuid 24e87642-694c-486a-89a5-c2efc1fdab30))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR081") (unit 1)
         )
@@ -9604,7 +9783,7 @@
     (pin "1" (uuid e97a475c-9e8c-42a1-9a52-efe6f4dc7398))
     (pin "2" (uuid 553b43e7-dbfb-4527-b602-b0e96ed6e692))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "J3") (unit 1)
         )
@@ -9612,40 +9791,40 @@
     )
   )
 
-  (symbol (lib_id "ESD401:ESD401DPYR") (at 397.51 172.72 270) (unit 1)
+  (symbol (lib_id "ESD401:ESD401DPYR") (at 393.7 116.84 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af4969af-21f4-4af1-9bc5-a9a44c9a4d2e)
-    (property "Reference" "U6" (at 394.97 166.37 90)
+    (property "Reference" "U6" (at 391.16 110.49 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "ESD401DPYR" (at 394.2702 167.7729 0)
+    (property "Value" "ESD401DPYR" (at 390.4602 111.8929 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "ESD401DPYR" (at 302.59 194.31 0)
+    (property "Footprint" "ESD401DPYR" (at 298.78 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/esd401.pdf" (at 202.59 194.31 0)
+    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/esd401.pdf" (at 198.78 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Height" "0.5" (at 2.59 194.31 0)
+    (property "Height" "0.5" (at -1.22 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Mouser Part Number" "595-ESD401DPYR" (at -97.41 194.31 0)
+    (property "Mouser Part Number" "595-ESD401DPYR" (at -101.22 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESD401DPYR?qs=BZBei1rCqCCvWkwMToOW3Q%3D%3D" (at -197.41 194.31 0)
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESD401DPYR?qs=BZBei1rCqCCvWkwMToOW3Q%3D%3D" (at -201.22 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Manufacturer_Name" "Texas Instruments" (at -297.41 194.31 0)
+    (property "Manufacturer_Name" "Texas Instruments" (at -301.22 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Manufacturer_Part_Number" "ESD401DPYR" (at -397.41 194.31 0)
+    (property "Manufacturer_Part_Number" "ESD401DPYR" (at -401.22 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (pin "1" (uuid 2ebec1eb-e517-48ab-9c20-f0241737c390))
     (pin "2" (uuid 2e951a5f-e865-4b51-b1f0-9f9f51dcfffb))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "U6") (unit 1)
         )
@@ -9670,7 +9849,7 @@
     )
     (pin "1" (uuid dbcb9618-d087-41f7-8f84-9f24c355fe7b))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR085") (unit 1)
         )
@@ -9699,7 +9878,7 @@
     (pin "1" (uuid c0544890-2074-4830-90f5-3ff2f9653fe8))
     (pin "2" (uuid b8418ae6-3484-4f8a-ac24-4952a6e76235))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R31") (unit 1)
         )
@@ -9707,24 +9886,24 @@
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 271.78 96.52 0) (unit 1)
+  (symbol (lib_id "power:+3V3") (at 271.78 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b168c2f4-d11d-4174-af0b-477eac9ca23d)
-    (property "Reference" "#PWR013" (at 271.78 100.33 0)
+    (property "Reference" "#PWR013" (at 271.78 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (at 274.32 92.71 0)
+    (property "Value" "+3V3" (at 274.32 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 271.78 96.52 0)
+    (property "Footprint" "" (at 271.78 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 271.78 96.52 0)
+    (property "Datasheet" "" (at 271.78 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 17068a81-0a96-4f84-b8f4-8ce926a0f49d))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR013") (unit 1)
         )
@@ -9753,7 +9932,7 @@
     (pin "1" (uuid 79704eaa-25c5-4162-9d62-dbeaa921ba5b))
     (pin "2" (uuid df4609d0-a5c9-4cc2-ade7-a9a3a555d706))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C34") (unit 1)
         )
@@ -9788,7 +9967,7 @@
     (pin "1" (uuid 4a2c1416-1aaa-4719-aa2a-91d344073472))
     (pin "2" (uuid 81ee10cf-1250-4c16-9b9d-49da79c2f1b6))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "D10") (unit 1)
         )
@@ -9813,7 +9992,7 @@
     )
     (pin "1" (uuid 86558f82-2d4e-49f0-b692-33ca68e09e60))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR03") (unit 1)
         )
@@ -9838,7 +10017,7 @@
     )
     (pin "1" (uuid 8e4545a7-9a2f-4238-a4f7-9a48041f9c04))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR056") (unit 1)
         )
@@ -9867,7 +10046,7 @@
     (pin "1" (uuid 10f8f195-3f93-4b25-8a0f-9143a51f064c))
     (pin "2" (uuid c048e154-acc8-4f68-ac51-0753652d8107))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C38") (unit 1)
         )
@@ -9911,7 +10090,7 @@
     (pin "7" (uuid 92f06faf-c20d-4737-833f-f112e0763982))
     (pin "8" (uuid a8f91888-4ec0-4947-9d6d-9b6ddd7b940b))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "U8") (unit 1)
         )
@@ -9938,7 +10117,7 @@
     (pin "2" (uuid 1813b067-ee7a-4740-af76-b295baf320f6))
     (pin "3" (uuid 17f50f4d-4de2-46da-89cc-a418496761bd))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "D12") (unit 1)
         )
@@ -9963,7 +10142,7 @@
     )
     (pin "1" (uuid 84d687a1-9e41-44fa-8a2f-a8d03fd0f9c2))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR083") (unit 1)
         )
@@ -9988,7 +10167,7 @@
     )
     (pin "1" (uuid 5e8c3eb8-d156-4667-a47d-c570bee9ed13))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR063") (unit 1)
         )
@@ -10013,7 +10192,7 @@
     )
     (pin "1" (uuid 312875ab-1f1a-4c41-a465-bbf6aca60fd8))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR080") (unit 1)
         )
@@ -10042,7 +10221,7 @@
     (pin "1" (uuid 01836c35-6f7e-49c8-862f-e80b650a9041))
     (pin "2" (uuid 567c3a7d-52ac-4cea-b906-06c2904435de))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C13") (unit 1)
         )
@@ -10069,7 +10248,7 @@
     (pin "2" (uuid 4d25d989-b1a2-4e22-9b80-5da235bb0a6e))
     (pin "3" (uuid ff630835-5911-4cda-b7a1-190d84293569))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "J13") (unit 1)
         )
@@ -10094,7 +10273,7 @@
     )
     (pin "1" (uuid f0b59764-90e7-49a4-8428-1a6d74d3570e))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR014") (unit 1)
         )
@@ -10126,7 +10305,7 @@
     (pin "1" (uuid c3c8b840-ce81-4478-a3e5-45e22bebcea1))
     (pin "2" (uuid 21496c6e-fdbb-4f77-bb2c-0ba0fd6d3f8a))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C20") (unit 1)
         )
@@ -10134,40 +10313,40 @@
     )
   )
 
-  (symbol (lib_id "ESD401:ESD401DPYR") (at 391.16 172.72 270) (unit 1)
+  (symbol (lib_id "ESD401:ESD401DPYR") (at 387.35 116.84 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid befda4d4-4c58-4f9c-a5a7-6f897c9ac56f)
-    (property "Reference" "U5" (at 387.35 166.37 90)
+    (property "Reference" "U5" (at 383.54 110.49 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "ESD401DPYR" (at 387.35 167.64 0)
+    (property "Value" "ESD401DPYR" (at 383.54 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "ESD401DPYR" (at 296.24 194.31 0)
+    (property "Footprint" "ESD401DPYR" (at 292.43 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/esd401.pdf" (at 196.24 194.31 0)
+    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/esd401.pdf" (at 192.43 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Height" "0.5" (at -3.76 194.31 0)
+    (property "Height" "0.5" (at -7.57 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Mouser Part Number" "595-ESD401DPYR" (at -103.76 194.31 0)
+    (property "Mouser Part Number" "595-ESD401DPYR" (at -107.57 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESD401DPYR?qs=BZBei1rCqCCvWkwMToOW3Q%3D%3D" (at -203.76 194.31 0)
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESD401DPYR?qs=BZBei1rCqCCvWkwMToOW3Q%3D%3D" (at -207.57 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Manufacturer_Name" "Texas Instruments" (at -303.76 194.31 0)
+    (property "Manufacturer_Name" "Texas Instruments" (at -307.57 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Manufacturer_Part_Number" "ESD401DPYR" (at -403.76 194.31 0)
+    (property "Manufacturer_Part_Number" "ESD401DPYR" (at -407.57 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (pin "1" (uuid b6f7919a-4739-4c50-90a3-cd8c127fa12e))
     (pin "2" (uuid 913e0185-ba3d-478d-beaa-f27adaee3732))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "U5") (unit 1)
         )
@@ -10192,7 +10371,7 @@
     )
     (pin "1" (uuid 4e0ea9a3-793b-48d2-a2cb-15ea10f21b00))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR043") (unit 1)
         )
@@ -10200,28 +10379,28 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 269.24 100.33 0) (unit 1)
+  (symbol (lib_id "Device:R") (at 269.24 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c101a9a0-2cae-4e88-9a91-55cbc2641e1e)
-    (property "Reference" "R9" (at 265.43 99.06 0)
+    (property "Reference" "R9" (at 265.43 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "3k3" (at 264.16 101.6 0)
+    (property "Value" "3k3" (at 264.16 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 267.462 100.33 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 267.462 87.63 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 269.24 100.33 0)
+    (property "Datasheet" "~" (at 269.24 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "NUmber" "CRG0603F3K3" (at 269.24 100.33 0)
+    (property "NUmber" "CRG0603F3K3" (at 269.24 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8e6e65fa-2ac6-46cd-afff-1dc70907c2d2))
     (pin "2" (uuid de2df720-9de2-4d5e-a412-5363e320bf4b))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R9") (unit 1)
         )
@@ -10229,28 +10408,28 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 292.1 72.39 90) (unit 1)
+  (symbol (lib_id "Device:R") (at 292.1 59.69 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c1842fbd-ab8d-49f5-9b63-1a10163cb0f2)
-    (property "Reference" "R1" (at 293.37 74.93 90)
+    (property "Reference" "R1" (at 293.37 62.23 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k/1%" (at 297.18 69.85 90)
+    (property "Value" "10k/1%" (at 297.18 57.15 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 292.1 74.168 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 292.1 61.468 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 292.1 72.39 0)
+    (property "Datasheet" "~" (at 292.1 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Number" "ERJ-3EKF1002V" (at 292.1 72.39 90)
+    (property "Number" "ERJ-3EKF1002V" (at 292.1 59.69 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c4bc50a9-c4cc-4b58-91d8-53963f117820))
     (pin "2" (uuid 783b5c69-81b6-4d90-976a-bff21c38bb74))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R1") (unit 1)
         )
@@ -10275,7 +10454,7 @@
     )
     (pin "1" (uuid 4ada6cfc-63ed-4cf6-841f-bd5d73091424))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR018") (unit 1)
         )
@@ -10300,7 +10479,7 @@
     )
     (pin "1" (uuid e7bae0ec-4f1f-4afe-9be0-d849c81090e9))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR061") (unit 1)
         )
@@ -10325,7 +10504,7 @@
     )
     (pin "1" (uuid 059177f1-904f-44ff-b6be-541d49e9fa26))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR015") (unit 1)
         )
@@ -10354,7 +10533,7 @@
     (pin "1" (uuid fbe6e48f-55ee-4fbe-ac4d-b03a08e971e1))
     (pin "2" (uuid 3613ebb4-b564-4159-b832-95201bcd4154))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R14") (unit 1)
         )
@@ -10383,7 +10562,7 @@
     (pin "1" (uuid 5228b63f-fc2d-43f1-b8f6-41baee0b94c4))
     (pin "2" (uuid e2f2ce20-3140-4f8e-b67f-ee9caa96c995))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C40") (unit 1)
         )
@@ -10408,7 +10587,7 @@
     )
     (pin "1" (uuid ef3086e5-c6bf-4df1-9b2b-ec6bbd75197a))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#FLG06") (unit 1)
         )
@@ -10525,7 +10704,7 @@
     (pin "8" (uuid cd5b8d0c-8c93-41a1-95d9-70609080ca09))
     (pin "9" (uuid f66d6f68-9da6-4893-ac88-d4758c35dd3b))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "K3") (unit 1)
         )
@@ -10550,7 +10729,7 @@
     )
     (pin "1" (uuid 05c0dc6f-5280-4b4a-8c8b-0674719451a3))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR084") (unit 1)
         )
@@ -10575,7 +10754,7 @@
     )
     (pin "1" (uuid bb1d7ab3-e57b-48b9-8709-aab660492e95))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR027") (unit 1)
         )
@@ -10604,7 +10783,7 @@
     (pin "1" (uuid cd6a7ca1-5c7e-48ad-84ce-af59b43bce49))
     (pin "2" (uuid 6ac52924-bc8b-46c6-ad7d-0810da70a6f3))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C28") (unit 1)
         )
@@ -10633,7 +10812,7 @@
     (pin "1" (uuid 2534d0ea-8387-4f45-a6ee-f2b7e2164ec9))
     (pin "2" (uuid efb70350-de65-45ee-bdbe-cb67dcdd1bda))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R29") (unit 1)
         )
@@ -10677,7 +10856,7 @@
     (pin "7" (uuid 8d8648a2-c33b-4d0c-b586-c72405665122))
     (pin "8" (uuid e21e02bd-f08c-4dff-a93d-5b5af37a07d4))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "U14") (unit 1)
         )
@@ -10702,7 +10881,7 @@
     )
     (pin "1" (uuid 1b13896f-9360-43be-a775-f20c4ade1afe))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR021") (unit 1)
         )
@@ -10728,7 +10907,7 @@
     (pin "1" (uuid ed89f3ef-3172-4b97-b1ab-99595a14563e))
     (pin "2" (uuid 55531df1-5c29-4263-99ee-ef41b2b7e2da))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "J7") (unit 1)
         )
@@ -10760,7 +10939,7 @@
     (pin "1" (uuid 0c1952c5-08b1-4485-833a-a7c7ddef5533))
     (pin "2" (uuid 6dc97121-d3fc-4831-9363-5de1f91e0b60))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C33") (unit 1)
         )
@@ -10795,7 +10974,7 @@
     (pin "1" (uuid c171e30f-f670-4e3f-9f39-91f7020ca1ec))
     (pin "2" (uuid 630f49af-ec6b-4ac9-9b65-62fc0bc37dd3))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "D5") (unit 1)
         )
@@ -10820,7 +10999,7 @@
     )
     (pin "1" (uuid 7820a006-10b2-4396-9ed5-c25f222f0175))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#FLG05") (unit 1)
         )
@@ -10852,7 +11031,7 @@
     (pin "1" (uuid 721c09be-7880-4da8-a91f-84bfdd8ff164))
     (pin "2" (uuid afe2fa14-e01f-48db-92b0-209f38ef61b3))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C25") (unit 1)
         )
@@ -10881,7 +11060,7 @@
     (pin "1" (uuid 27009723-32e2-4379-bfca-67a860de10a1))
     (pin "2" (uuid ddafc0ff-a173-4857-a30e-7ccf23a48926))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "D4") (unit 1)
         )
@@ -10906,7 +11085,7 @@
     )
     (pin "1" (uuid 45046dbb-5c42-4f12-8129-a7b661a2c564))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR073") (unit 1)
         )
@@ -10931,7 +11110,7 @@
     )
     (pin "1" (uuid b59b7f69-9939-4947-97fe-4dfe97454fc3))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR060") (unit 1)
         )
@@ -10939,34 +11118,34 @@
     )
   )
 
-  (symbol (lib_id "USB_10118192-0001LF:10118192-0001LF") (at 411.48 158.75 0) (unit 1)
+  (symbol (lib_id "USB_10118192-0001LF:10118192-0001LF") (at 407.67 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dee274c2-818e-474a-96e3-c8031489156e)
-    (property "Reference" "J5" (at 424.18 151.13 0)
+    (property "Reference" "J5" (at 420.37 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10118192-0001LF" (at 424.18 153.67 0)
+    (property "Value" "10118192-0001LF" (at 420.37 97.79 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "101181920001LF" (at 433.07 253.67 0)
+    (property "Footprint" "101181920001LF" (at 429.26 197.79 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10118192.pdf" (at 433.07 353.67 0)
+    (property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10118192.pdf" (at 429.26 297.79 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Height" "3.05" (at 433.07 553.67 0)
+    (property "Height" "3.05" (at 429.26 497.79 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Mouser Part Number" "649-10118192-0001LF" (at 433.07 653.67 0)
+    (property "Mouser Part Number" "649-10118192-0001LF" (at 429.26 597.79 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10118192-0001LF?qs=Ywefl8B65e5bHFoQtIudZg%3D%3D" (at 433.07 753.67 0)
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10118192-0001LF?qs=Ywefl8B65e5bHFoQtIudZg%3D%3D" (at 429.26 697.79 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Manufacturer_Name" "Amphenol Communications Solutions" (at 433.07 853.67 0)
+    (property "Manufacturer_Name" "Amphenol Communications Solutions" (at 429.26 797.79 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Manufacturer_Part_Number" "10118192-0001LF" (at 433.07 953.67 0)
+    (property "Manufacturer_Part_Number" "10118192-0001LF" (at 429.26 897.79 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (pin "1" (uuid 20260aa8-e991-4b48-b89c-b98175906108))
@@ -10981,7 +11160,7 @@
     (pin "MP5" (uuid dfd090a9-3386-4c9b-a726-d6aae5a7857f))
     (pin "MP6" (uuid 41dab836-a528-44ea-a75c-bc551e0d0864))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "J5") (unit 1)
         )
@@ -11006,7 +11185,7 @@
     )
     (pin "1" (uuid b5d1ed7c-0386-4b68-b45f-8d9718260c42))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#FLG04") (unit 1)
         )
@@ -11014,19 +11193,19 @@
     )
   )
 
-  (symbol (lib_name "434133025816_1") (lib_id "Wuerth_434133025816:434133025816") (at 279.4 170.18 0) (unit 1)
+  (symbol (lib_name "434133025816_1") (lib_id "Wuerth_434133025816:434133025816") (at 262.89 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e041f59b-bf79-4d8f-a27b-684147eee2a2)
-    (property "Reference" "U3" (at 297.18 164.465 0)
+    (property "Reference" "U3" (at 280.67 158.115 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "434133025816" (at 288.925 167.005 0)
+    (property "Value" "434133025816" (at 272.415 160.655 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "SMD_025816_WRE" (at 284.48 177.165 0)
+    (property "Footprint" "SMD_025816_WRE" (at 267.97 170.815 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "434133025816" (at 283.845 173.99 0)
+    (property "Datasheet" "434133025816" (at 267.335 167.64 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (pin "3" (uuid 397b0fbf-e19c-41db-af14-27bfdba1e0d0))
@@ -11034,7 +11213,7 @@
     (pin "2" (uuid 573d1a44-aadf-45d4-8a28-b0803515791d))
     (pin "1" (uuid cf6e9180-04b9-46a7-b18c-8bdf2fd28d09))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "U3") (unit 1)
         )
@@ -11060,7 +11239,7 @@
     (pin "1" (uuid 2c3fb663-4afe-44df-a14d-a4e2a6f13e50))
     (pin "2" (uuid 08a0131a-a1f4-499d-8d09-d0c698ea390a))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "J4") (unit 1)
         )
@@ -11089,7 +11268,7 @@
     (pin "1" (uuid c31a0467-584e-408b-ad90-8ed833daf375))
     (pin "2" (uuid d81f691f-4eea-4b1b-af07-e8841a6837c8))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C36") (unit 1)
         )
@@ -11118,7 +11297,7 @@
     (pin "1" (uuid 0b5405a7-ab37-490b-bbb1-8f5d6820bfdb))
     (pin "2" (uuid ceb20470-4f8b-4497-abf8-c501553580f0))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R20") (unit 1)
         )
@@ -11143,7 +11322,7 @@
     )
     (pin "1" (uuid 35f14546-6d5a-4d54-a78e-3ca12aec39d0))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR057") (unit 1)
         )
@@ -11151,24 +11330,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 438.15 177.8 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 434.34 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e1d23685-1415-4f6b-9765-c54774d90ed2)
-    (property "Reference" "#PWR039" (at 438.15 184.15 0)
+    (property "Reference" "#PWR039" (at 434.34 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 438.15 182.88 0)
+    (property "Value" "GND" (at 434.34 127 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 438.15 177.8 0)
+    (property "Footprint" "" (at 434.34 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 438.15 177.8 0)
+    (property "Datasheet" "" (at 434.34 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 56c040e0-d38f-416e-a127-a2190d886aee))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR039") (unit 1)
         )
@@ -11194,7 +11373,7 @@
     (pin "1" (uuid 6eb4127d-95e9-438a-8a9c-8f715aa86243))
     (pin "2" (uuid e67a1cc6-71c9-4538-97f0-2b8708c7f363))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "J1") (unit 1)
         )
@@ -11221,7 +11400,7 @@
     (pin "2" (uuid d359d1a6-ce8e-42e1-9c47-9bbdc5e7d026))
     (pin "3" (uuid e970c953-5ca4-46f9-8cda-6d1081ff9a09))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "J8") (unit 1)
         )
@@ -11250,7 +11429,7 @@
     (pin "1" (uuid 6fd6a256-c5ec-4b85-b0f1-8e715315bffd))
     (pin "2" (uuid cd2c8cca-04e5-4b0e-83c6-a6bc289f1d94))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C35") (unit 1)
         )
@@ -11275,7 +11454,7 @@
     )
     (pin "1" (uuid 77182692-e7bf-4b6a-b045-d0438338e343))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR050") (unit 1)
         )
@@ -11304,7 +11483,7 @@
     (pin "1" (uuid 875f6a67-d4d2-4fc6-815f-ac6bc30b4163))
     (pin "2" (uuid fb7fc167-6670-42e2-9d6c-cfc4e94bf322))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C24") (unit 1)
         )
@@ -11329,7 +11508,7 @@
     )
     (pin "1" (uuid d5a9e716-77ae-4286-a803-9f3a9a68da5b))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR058") (unit 1)
         )
@@ -11354,7 +11533,7 @@
     )
     (pin "1" (uuid e78e5d26-6f17-4736-926e-f039a070abd1))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR074") (unit 1)
         )
@@ -11379,7 +11558,7 @@
     )
     (pin "1" (uuid 15f7981f-fe3d-4cc9-9940-c6bc2eb6ffa8))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#FLG010") (unit 1)
         )
@@ -11423,7 +11602,7 @@
     (pin "7" (uuid f71e442c-26b7-41a2-b956-be2dbf19875b))
     (pin "8" (uuid 3914f653-4f3d-4b2c-90a0-1ca5c3d5eb46))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "U13") (unit 1)
         )
@@ -11431,19 +11610,19 @@
     )
   )
 
-  (symbol (lib_id "Espressif:ESP32-C6-MINI-1/U") (at 317.5 107.95 0) (unit 1)
+  (symbol (lib_id "Espressif:ESP32-C6-MINI-1/U") (at 317.5 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6140308-51ff-4c70-b0f5-f8209d9d8d95)
-    (property "Reference" "U2" (at 319.6941 72.39 0)
+    (property "Reference" "U2" (at 319.6941 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "ESP32-C6-MINI-1/U" (at 319.6941 74.93 0)
+    (property "Value" "ESP32-C6-MINI-1/U" (at 319.6941 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Espressif:ESP32-C6-MINI-1" (at 317.5 153.035 0)
+    (property "Footprint" "Espressif:ESP32-C6-MINI-1" (at 317.5 140.335 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-c6-mini-1_datasheet_en.pdf" (at 317.5 156.21 0)
+    (property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-c6-mini-1_datasheet_en.pdf" (at 317.5 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "35" (uuid 159390fd-627b-4126-a23d-3fb57c608a32))
@@ -11500,7 +11679,7 @@
     (pin "6" (uuid 87b007c8-afcd-44de-acec-188cacfed9e3))
     (pin "11" (uuid 5f4a3f4b-78b9-4dff-9d2e-1221df4b08f5))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "U2") (unit 1)
         )
@@ -11532,7 +11711,7 @@
     (pin "1" (uuid bb452b8b-3f31-43de-becf-375f75d11a94))
     (pin "2" (uuid ff8f3b38-2133-4340-9008-8de5cd076a12))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C21") (unit 1)
         )
@@ -11561,7 +11740,7 @@
     (pin "1" (uuid 25044f5f-592a-47e6-bccf-3f94e7cf569e))
     (pin "2" (uuid 6d5bfc9a-5663-46d7-b3d4-3f62090bca68))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C26") (unit 1)
         )
@@ -11590,7 +11769,7 @@
     (pin "1" (uuid b7da9763-54b4-47fe-9fe4-d6efa7a5fd8d))
     (pin "2" (uuid 3af46f71-31cb-47b4-9bc0-bf26e25f26dd))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C9") (unit 1)
         )
@@ -11622,7 +11801,7 @@
     (pin "1" (uuid 48b0daa9-52a1-4c01-b9cd-faef60f68497))
     (pin "2" (uuid fd3b58cd-3ef5-4b09-84e6-49f148fcd15c))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C27") (unit 1)
         )
@@ -11651,7 +11830,7 @@
     (pin "1" (uuid 3260598f-4398-413a-8917-36ef71f5e3c4))
     (pin "2" (uuid 3bcf2224-c6ef-4584-be9f-1667d014d883))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "R18") (unit 1)
         )
@@ -11676,7 +11855,7 @@
     )
     (pin "1" (uuid 79c40633-c173-41c8-9dc4-979bf4870447))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR071") (unit 1)
         )
@@ -11701,7 +11880,7 @@
     )
     (pin "1" (uuid 90e66a9c-8581-4817-aae1-bd75bad34310))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#FLG012") (unit 1)
         )
@@ -11726,7 +11905,7 @@
     )
     (pin "1" (uuid 2508e47a-e6da-4e57-b598-580813e1cfda))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR049") (unit 1)
         )
@@ -11751,7 +11930,7 @@
     )
     (pin "1" (uuid dfa74312-e372-47ce-8b1d-e6d0029b145a))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR078") (unit 1)
         )
@@ -11776,7 +11955,7 @@
     )
     (pin "1" (uuid fceda7f0-bfc0-4997-8944-1f63a7011930))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR047") (unit 1)
         )
@@ -11801,7 +11980,7 @@
     )
     (pin "1" (uuid e1103856-f18c-47e0-97f3-83af017f9b5a))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#FLG03") (unit 1)
         )
@@ -11826,7 +12005,7 @@
     )
     (pin "1" (uuid d991e889-d0c6-48d8-998e-f623d2763d84))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR067") (unit 1)
         )
@@ -11834,22 +12013,47 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_02x08_Odd_Even") (at 414.02 86.36 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 405.13 182.88 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f561244a-2646-40a4-b93e-105f8cfbaa26)
+    (property "Reference" "#PWR086" (at 405.13 189.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 405.13 187.96 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 405.13 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 405.13 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 56ad979c-9f8a-44ee-b14e-4a1d6cf9feb4))
+    (instances
+      (project "ESP32C6RelayBoard"
+        (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
+          (reference "#PWR086") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector_Generic:Conn_02x08_Odd_Even") (at 414.02 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f5b4586c-08a2-4c8c-bf2d-b415a845442d)
-    (property "Reference" "J2" (at 415.29 72.39 0)
+    (property "Reference" "J2" (at 415.29 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Conn_02x08_Odd_Even" (at 415.29 74.93 0)
+    (property "Value" "Conn_02x08_Odd_Even" (at 415.29 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" (at 414.02 86.36 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" (at 414.02 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 414.02 86.36 0)
+    (property "Datasheet" "~" (at 414.02 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Number" "10129381-908002BLF" (at 414.02 86.36 0)
+    (property "Number" "10129381-908002BLF" (at 414.02 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "16" (uuid 6ccccc1b-44e8-4216-a55a-6c99b94aea15))
@@ -11869,7 +12073,7 @@
     (pin "14" (uuid 076c8480-dfce-4319-8e50-daa57c5afcc3))
     (pin "12" (uuid 4176a0ff-5ab1-45a0-b81c-f3dad16ee45c))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "J2") (unit 1)
         )
@@ -11896,7 +12100,7 @@
     (pin "2" (uuid 52788914-80c8-4779-885e-6d6f4c562bd7))
     (pin "3" (uuid 2a7d281e-714a-4e8b-b0ce-2ccf91f8fb72))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "D7") (unit 1)
         )
@@ -11923,7 +12127,7 @@
     (pin "2" (uuid 2ddde867-3641-409b-ae78-4e46a1a9f39f))
     (pin "3" (uuid 71b9f949-2169-4e01-af8a-bac66c181565))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "Q1") (unit 1)
         )
@@ -11952,7 +12156,7 @@
     (pin "1" (uuid 73feaa84-5bb6-43c1-ad92-44b05b05b06c))
     (pin "2" (uuid a05db11d-c9c2-4dad-bf32-71dc2c2f6e6d))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C2") (unit 1)
         )
@@ -11977,7 +12181,7 @@
     )
     (pin "1" (uuid 972164a1-781d-4a02-9fe7-fa620a4cc239))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "#PWR034") (unit 1)
         )
@@ -12006,7 +12210,7 @@
     (pin "1" (uuid a84dcd37-5167-44be-885e-8bd4695622a3))
     (pin "2" (uuid e1e8cc97-8c2a-4a6e-b8cc-0870ac8ceaf7))
     (instances
-      (project "ESP32C3RelayBoard"
+      (project "ESP32C6RelayBoard"
         (path "/c75bdf3d-fde8-4fe0-9d0f-06bd3290cb63"
           (reference "C7") (unit 1)
         )
