@@ -1,5 +1,5 @@
 # ESP32C6-RelayBoard
-Board with relays and sensors with ESP32C6 SOC.
+Board with relays and sensors with ESP32C6 SOC. [ESP32C6RelayBoard schematic in PDF format](ESP32C6RelayBoard.pdf)
 
 ![](ESP32C6RelayBoardSmall.jpg) 
 ![](ESP32C6RelayBoardBackSmall.jpg) 
