@@ -1,5 +1,6 @@
 # ESP32C6-RelayBoard
-Board with relays and sensors with ESP32C6 SOC. [ESP32C6RelayBoard schematic in PDF format](ESP32C6RelayBoard.pdf)
+Board with relays and sensors with ESP32C6 SOC.  
+[ESP32C6RelayBoard schematic in PDF format](ESP32C6RelayBoard.pdf)
 
 ![](ESP32C6RelayBoardSmall.jpg) 
 ![](ESP32C6RelayBoardBackSmall.jpg) 
@@ -11,17 +12,11 @@ Board with relays and sensors with ESP32C6 SOC. [ESP32C6RelayBoard schematic in 
 - 2 x 33V -> 3.3V Voltage divider connected to A/D converter ADC1 of CPU
 - 1 x Humidity sensor BME280 measuring relative humidity, barometric pressure and ambient temperature
 - Extension connector with the following signals exposed:  
-  +5V  
-  +3.3V  
-  GND  
-  UOTXD  
-  UORXD  
-  GPIO4  
-  GPIO5  
-  GPIO8  
-  GPIO9  
-  GPIO14  
-  GPIO15  
-  GPIO18  
-  GPIO19  
-  CHIP_PU/RESET  
+  +5V&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GND  
+  UOTXD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; UORXD  
+  +3.3V&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GND  
+  GPIO4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GPIO5  
+  GPIO8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GPIO9  
+  GPIO14&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GPIO15  
+  GPIO18&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GPIO19  
+  CHIP_PU&nbsp;&nbsp;&nbsp;GND    
