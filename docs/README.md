@@ -22,4 +22,5 @@ Board with relays and sensors with ESP32C6 SOC.
   GPIO8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GPIO9  
   GPIO14&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GPIO15  
   GPIO18&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GPIO19  
-  CHIP_PU&nbsp;&nbsp;&nbsp;GND    
+  SCL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SDA  
+  GND&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHIP_PU    
