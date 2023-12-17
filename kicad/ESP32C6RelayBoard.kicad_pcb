@@ -343,7 +343,7 @@
       (net 33 "Net-(K3-S-)") (pinfunction "S-") (pintype "passive") (tstamp c1766135-dbf2-4143-b248-e2ea85ae4b1e))
     (pad "9" thru_hole circle (at -12.1 0 90) (size 2 2) (drill 1.3) (layers "*.Cu")
       (net 6 "+12V") (pinfunction "S+/R+") (pintype "passive") (tstamp afeefb68-fd74-49a6-96f9-1f6487e3971e))
-    (model "/home/sladekm/.local/share/kicad/6.0/3dmodels/Omron_-_G5RL-K1-E-DC12.step"
+    (model "${KIPRJMOD}/3D/Omron_-_G5RL-K1-E-DC12.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2274,7 +2274,7 @@
       (net 27 "Net-(K1-S-)") (pinfunction "S-") (pintype "passive") (tstamp 2efe6c60-fc14-415f-8bae-7774f00ecb43))
     (pad "9" thru_hole circle (at -12.1 0 90) (size 2 2) (drill 1.3) (layers "*.Cu")
       (net 6 "+12V") (pinfunction "S+/R+") (pintype "passive") (tstamp e36be0b6-f713-4da2-adca-142dc345930d))
-    (model "/home/sladekm/.local/share/kicad/6.0/3dmodels/Omron_-_G5RL-K1-E-DC12.step"
+    (model "${KIPRJMOD}/3D/Omron_-_G5RL-K1-E-DC12.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4405,7 +4405,7 @@
       (net 2 "GND") (pinfunction "A0") (pintype "input") (tstamp a2ec4523-5fcc-4ca3-9e3f-fcc55b1b60e3))
     (pad "8" smd rect (at 1.25 -0.975 180) (size 0.45 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 68 "Net-(U10-ALERT)") (pinfunction "ALERT") (pintype "output") (tstamp 75a1e51b-e352-4174-a5e5-4c91d65ebda5))
-    (model "/home/sladekm/.local/share/kicad/6.0/3dmodels/INA232AIDDFR.stp"
+    (model "${KIPRJMOD}/3D/INA232AIDDFR.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4946,7 +4946,7 @@
       (net 35 "Net-(K4-S-)") (pinfunction "S-") (pintype "passive") (tstamp 5ad1577a-178a-4885-88ca-0dd336de1f9b))
     (pad "9" thru_hole circle (at -12.1 0 90) (size 2 2) (drill 1.3) (layers "*.Cu")
       (net 6 "+12V") (pinfunction "S+/R+") (pintype "passive") (tstamp ceb0f426-7426-45a6-8063-a6a6ff261b4f))
-    (model "/home/sladekm/.local/share/kicad/6.0/3dmodels/Omron_-_G5RL-K1-E-DC12.step"
+    (model "${KIPRJMOD}/3D/Omron_-_G5RL-K1-E-DC12.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
